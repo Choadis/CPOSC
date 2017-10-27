@@ -5,6 +5,10 @@
   letter-spacing: 1.2;
   font-weight: bold;
 }
+.herohome{
+  @extend herohead;
+  font-size: 32px;
+}
 .mont24{
   font-family: $mont;
   font-size: 24px;
@@ -45,6 +49,8 @@
   font-family: $mont;
   font-size: 13.6px;
   font-weight: bolder;
+  text-transform: capitalize;
+  color: $white;
 }
 .mont13{
   font-family: $mont;
