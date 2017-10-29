@@ -1,0 +1,47 @@
+.bar{
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  margin: 5px;
+}
+.burger{
+  width: 35px;
+  height: 35px;
+  padding: 2px;
+  margin: auto;
+  cursor: pointer;
+}
+.ddmenu{
+  display: none;
+  height: auto;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  background-color: #ffab00;
+  min-width: 200px;
+  z-index: 1;
+  text-align: center;
+  border: 2px solid black;
+}
+.link{
+  display: block;
+  font-size: 21px;
+  text-decoration: none;
+  padding: 20px 0 5px;
+  color: #064159;
+}
+.nav{
+    height: auto;
+  	width: auto;
+  	margin: 10px 20px 0 0;
+  	position: relative;
+  	display: inline-block;
+}
+.nav:hover .ddmenu {
+  	display: block;
+  }
+.link:hover{
+    height: 20px;
+    width: auto;
+    background-color: $yellow;
+  }
