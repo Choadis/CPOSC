@@ -1,0 +1,42 @@
+.sponsor{
+  .white-background{
+    .ticket-container{
+      .mont24{
+        letter-spacing: 1.2;
+        text-align: left;
+        color: white;
+      }
+      .mont18{
+        letter-spacing: .9;
+        text-align: center;
+        color: white;
+      }
+    }
+    .mont21{
+      line-height: $twoFour;
+      text-align: left;
+    }
+    .lora16{
+      line-height: $twoFour;
+      letter-spacing: .8;
+      text-align: left;
+    }
+  }
+  .gray-background{
+    .mont24{
+      line-height: $twoFour;
+      letter-spacing: 1.2;
+      text-align: left;
+    }
+    .lato18{
+      line-height: $twoFour;
+      letter-spacing: .9;
+      text-align: left;
+    }
+    .list {
+      li {
+        list-style-type: circle;
+      }
+    }
+  }
+}

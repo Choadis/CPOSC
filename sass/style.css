@@ -148,9 +148,11 @@ table {
 
 .index .counter-container .mont18 {
   letter-spacing: .9;
-  text-align: center; }
+  text-align: center;
+  color: white; }
 .index .counter-container .mont21 {
-  text-align: center; }
+  text-align: center;
+  color: white; }
 .index .ticket-container .mont24 {
   letter-spacing: 1.2;
   text-align: center; }
@@ -201,6 +203,32 @@ table {
   text-align: left; }
 .index .footer .bot {
   letter-spacing: 1.8; }
+
+.sponsor .white-background .ticket-container .mont24 {
+  letter-spacing: 1.2;
+  text-align: left;
+  color: white; }
+.sponsor .white-background .ticket-container .mont18 {
+  letter-spacing: .9;
+  text-align: center;
+  color: white; }
+.sponsor .white-background .mont21 {
+  line-height: 1.41;
+  text-align: left; }
+.sponsor .white-background .lora16 {
+  line-height: 1.41;
+  letter-spacing: .8;
+  text-align: left; }
+.sponsor .gray-background .mont24 {
+  line-height: 1.41;
+  letter-spacing: 1.2;
+  text-align: left; }
+.sponsor .gray-background .lato18 {
+  line-height: 1.41;
+  letter-spacing: .9;
+  text-align: left; }
+.sponsor .gray-background .list li {
+  list-style-type: circle; }
 
 .white-background {
   background-color: white; }
