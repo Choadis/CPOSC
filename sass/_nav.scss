@@ -31,11 +31,9 @@
   color: $white;
 }
 .nav{
-    height: auto;
-  	width: auto;
-  	margin: 10px 20px 0 0;
   	position: relative;
   	display: inline-block;
+    float: right;
 }
 .nav:hover .ddmenu {
   	display: block;
@@ -44,4 +42,5 @@
     height: 20px;
     width: auto;
     background-color: $yellow;
+    padding-bottom: 3px;
   }
