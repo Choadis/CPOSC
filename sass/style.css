@@ -98,4 +98,23 @@ table {
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 13px; }
 
+.white-background {
+  background-color: white; }
+
+.gray-background {
+  background-color: #ebebeb; }
+
+.gold-background {
+  background-color: #DF8D21; }
+
+.white-divider {
+  padding: 2px;
+  background-color: white; }
+
+.hero {
+  background-image: url("../image/hero-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
