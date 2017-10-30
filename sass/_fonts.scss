@@ -6,7 +6,7 @@
   font-weight: bold;
 }
 .herohome{
-  @extend herohead;
+  @extend .herohead;
   font-size: 32px;
 }
 .mont24{
