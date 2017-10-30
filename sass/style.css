@@ -1,0 +1,224 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.bar {
+  width: 20px;
+  height: 3px;
+  background-color: #f5f5f5;
+  margin: 5px; }
+
+.burger {
+  width: 35px;
+  height: 35px;
+  padding: 2px;
+  margin: auto;
+  cursor: pointer; }
+
+.ddmenu {
+  display: none;
+  height: auto;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  background-color: #313131;
+  min-width: 200px;
+  z-index: 1;
+  text-align: center;
+  border: 2px solid black; }
+
+.link {
+  display: block;
+  font-size: 21px;
+  text-decoration: none;
+  padding: 20px 0 5px;
+  color: #f5f5f5; }
+
+.nav {
+  height: auto;
+  width: auto;
+  margin: 10px 20px 0 0;
+  position: relative;
+  display: inline-block; }
+
+.nav:hover .ddmenu {
+  display: block; }
+
+.link:hover {
+  height: 20px;
+  width: auto;
+  background-color: #ffae00; }
+
+.herohead, .herohome {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 24px;
+  color: #ffae00;
+  letter-spacing: 1.2;
+  font-weight: bold; }
+
+.herohome {
+  font-size: 32px;
+  letter-spacing: 1.6; }
+
+.mont24 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 24px; }
+
+.mont18 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 18px; }
+
+.mont16 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 16px; }
+
+.mont21 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 21px; }
+
+.lora16 {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 16px; }
+
+.lora21 {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 21px; }
+
+.lora18 {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 18px; }
+
+.lora17 {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 17px; }
+
+.lora15 {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 15px; }
+
+.mont14 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 13.6px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  color: #f5f5f5; }
+
+.mont13 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 13px; }
+
+.index .counter-container .mont18 {
+  letter-spacing: .9;
+  text-align: center; }
+.index .counter-container .mont21 {
+  text-align: center; }
+.index .ticket-container .mont24 {
+  letter-spacing: 1.2;
+  text-align: center; }
+.index .ticket-container .mont18 {
+  letter-spacing: .9;
+  text-align: center; }
+.index .white-background .lora21 {
+  line-height: 1.52;
+  text-align: left; }
+.index .white-background .lora17 {
+  line-height: 1.41;
+  letter-spacing: 0.9;
+  text-align: left; }
+.index .gray-background .lora18 {
+  line-height: 1.41;
+  letter-spacing: .9;
+  text-align: left; }
+.index .gray-background .lora16 {
+  line-height: 1.41;
+  letter-spacing: .8;
+  text-align: left; }
+.index .two .lora21 {
+  line-height: 1.71;
+  text-align: left; }
+.index .two .lora17 {
+  line-height: 1.41;
+  letter-spacing: .9;
+  text-align: left; }
+.index .two .mont18 {
+  line-height: 1.73;
+  letter-spacing: .9;
+  text-align: left; }
+.index .two .mont21 {
+  line-height: 1.71;
+  text-align: left;
+  color: #ffae00; }
+.index .gold-background .mont21 {
+  line-height: 1.43;
+  text-align: left; }
+.index .gold-background .lora18 {
+  line-height: 1.41;
+  text-align: left; }
+.index .gold-background .lora16 {
+  line-height: 1.41;
+  text-align: left; }
+.index .footer .lora15 {
+  line-height: 1.41;
+  text-align: left; }
+.index .footer .bot {
+  letter-spacing: 1.8; }
+
+.white-background {
+  background-color: white; }
+
+.gray-background {
+  background-color: #ebebeb; }
+
+.gold-background {
+  background-color: #DF8D21; }
+
+.white-divider {
+  padding: 2px;
+  background-color: white; }
+
+.hero {
+  background-image: url("../image/hero-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
