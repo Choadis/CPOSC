@@ -146,41 +146,43 @@ table {
   font-size: 13px; }
 
 .index .counter-container .mont18 {
-  letter-spacing: .9;
-  text-align: center; }
+  letter-spacing: .9px;
+  text-align: center;
+  color: white; }
 .index .counter-container .mont21 {
-  text-align: center; }
+  text-align: center;
+  color: white; }
 .index .ticket-container .mont24 {
-  letter-spacing: 1.2;
+  letter-spacing: 1.2px;
   text-align: center; }
 .index .ticket-container .mont18 {
-  letter-spacing: .9;
+  letter-spacing: .9px;
   text-align: center; }
 .index .white-background .lora21 {
   line-height: 1.52;
   text-align: left; }
 .index .white-background .lora17 {
   line-height: 1.41;
-  letter-spacing: 0.9;
+  letter-spacing: 0.9px;
   text-align: left; }
 .index .gray-background .lora18 {
   line-height: 1.41;
-  letter-spacing: .9;
+  letter-spacing: .9px;
   text-align: left; }
 .index .gray-background .lora16 {
   line-height: 1.41;
-  letter-spacing: .8;
+  letter-spacing: .8px;
   text-align: left; }
 .index .two .lora21 {
   line-height: 1.71;
   text-align: left; }
 .index .two .lora17 {
   line-height: 1.41;
-  letter-spacing: .9;
+  letter-spacing: .9px;
   text-align: left; }
 .index .two .mont18 {
   line-height: 1.73;
-  letter-spacing: .9;
+  letter-spacing: .9px;
   text-align: left; }
 .index .two .mont21 {
   line-height: 1.71;
@@ -199,7 +201,67 @@ table {
   line-height: 1.41;
   text-align: left; }
 .index .footer .bot {
-  letter-spacing: 1.8; }
+  letter-spacing: 1.8px; }
+
+.sponsor .white-background .ticket-container .mont24 {
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: white;
+  font-weight: bold; }
+.sponsor .white-background .ticket-container .mont18 {
+  letter-spacing: .9px;
+  text-align: center;
+  color: white;
+  font-weight: bold; }
+.sponsor .white-background .mont21 {
+  line-height: 1.41;
+  text-align: left; }
+.sponsor .white-background .lora16 {
+  line-height: 1.41;
+  letter-spacing: .8px;
+  text-align: left; }
+  .sponsor .white-background .lora16 strong {
+    font-weight: bold; }
+.sponsor .gray-background .mont24 {
+  line-height: 1.41;
+  letter-spacing: 1.2px;
+  text-align: left;
+  font-weight: bold; }
+.sponsor .gray-background .lato18 {
+  line-height: 1.41;
+  letter-spacing: .9px;
+  text-align: left; }
+.sponsor .two .mont21 {
+  line-height: 1.41;
+  text-align: left;
+  font-weight: bold; }
+.sponsor .two .lora16 {
+  line-height: 1.41;
+  letter-spacing: .8px;
+  text-align: left; }
+.sponsor .two .button-container .mont16 {
+  line-height: 1.71;
+  letter-spacing: .8px;
+  text-align: center;
+  color: white; }
+.sponsor .gold-background .mont21 {
+  line-height: 1.43;
+  text-align: left;
+  font-weight: bold; }
+.sponsor .gold-background .lora18 {
+  line-height: 1.41;
+  text-align: left;
+  font-weight: bold; }
+.sponsor .gold-background .lora16 {
+  line-height: 1.41;
+  text-align: left; }
+.sponsor .footer .lora15 {
+  line-height: 1.41;
+  text-align: left; }
+.sponsor .footer .mont18 {
+  font-weight: 500; }
+.sponsor .footer .bot {
+  letter-spacing: 1.8px; }
 
 .white-background {
   background-color: #f5f5f5; }

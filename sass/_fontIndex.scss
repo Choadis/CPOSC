@@ -1,20 +1,22 @@
 .index{
   .counter-container{
     .mont18{
-      letter-spacing: .9;
+      letter-spacing: .9px;
       text-align: center;
+      color: white;
     }
     .mont21{
       text-align: center;
+      color: white;
     }
   }
   .ticket-container{
     .mont24{
-      letter-spacing: 1.2;
+      letter-spacing: 1.2px;
       text-align: center;
     }
     .mont18{
-      letter-spacing: .9;
+      letter-spacing: .9px;
       text-align: center;
     }
   }
@@ -25,19 +27,19 @@
     }
     .lora17{
       line-height: $twoFour;
-      letter-spacing: 0.9;
+      letter-spacing: 0.9px;
       text-align: left;
     }
   }
   .gray-background{
     .lora18{
       line-height: $twoFour;
-      letter-spacing: .9;
+      letter-spacing: .9px;
       text-align: left;
     }
     .lora16{
       line-height: $twoFour;
-      letter-spacing: .8;
+      letter-spacing: .8px;
       text-align: left;
     }
   }
@@ -48,12 +50,12 @@
     }
     .lora17{
       line-height: $twoFour;
-      letter-spacing: .9;
+      letter-spacing: .9px;
       text-align: left;
     }
     .mont18{
       line-height: 1.73;
-      letter-spacing: .9;
+      letter-spacing: .9px;
       text-align: left;
     }
     .mont21{
@@ -82,7 +84,7 @@
       text-align: left;
     }
     .bot{
-      letter-spacing: 1.8
+      letter-spacing: 1.8px;
     }
   }
 }
