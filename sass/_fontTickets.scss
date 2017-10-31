@@ -1,0 +1,64 @@
+.tickets{
+  .white-background{
+    .lora18{
+      line-height: 1.56;
+      letter-spacing: .9px;
+      text-align: left;
+    }
+    .mont21{
+      line-height: $twoFour;
+      text-align: left;
+        strong{
+          font-weight: bold;
+      }
+      .price{
+        color: $goldenrod;
+        line-height: $threeSix;
+      }
+    }
+    .lora16{
+      line-height: $twoFour;
+      letter-spacing: .8px;
+      text-align: left;
+    }
+  }
+  .two{
+    .mont21{
+      line-height: 2.57;
+      text-align: left;
+    }
+    .mont16{
+      line-height: $threeSix;
+      letter-spacing: .8px;
+      text-align: center;
+    }
+  }
+  .gold-background{
+    .mont21{
+      line-height: 1.43;
+      text-align: left;
+      font-weight: bold;
+    }
+    .lora18{
+      line-height: $twoFour;
+      text-align: left;
+      font-weight: bold;
+    }
+    .lora16{
+      line-height: $twoFour;
+      text-align: left;
+    }
+  }
+  .footer{
+    .lora15{
+      line-height: $twoFour;
+      text-align: left;
+    }
+    .mont18{
+      font-weight: 500;
+    }
+    .bot{
+      letter-spacing: 1.8px;
+    }
+  }
+}

@@ -4,6 +4,7 @@
       letter-spacing: .9px;
       text-align: center;
       color: white;
+      font-weight: bold;
     }
     .mont21{
       text-align: center;
@@ -14,16 +15,19 @@
     .mont24{
       letter-spacing: 1.2px;
       text-align: center;
+      font-weight: bold;
     }
     .mont18{
       letter-spacing: .9px;
       text-align: center;
+      font-weight: bold;
     }
   }
   .white-background{
     .lora21{
       line-height: $threeTwo;
       text-align: left;
+      font-weight: bold;
     }
     .lora17{
       line-height: $twoFour;
@@ -36,6 +40,7 @@
       line-height: $twoFour;
       letter-spacing: .9px;
       text-align: left;
+      font-weight: bold;
     }
     .lora16{
       line-height: $twoFour;
@@ -47,6 +52,7 @@
     .lora21{
       line-height: $threeSix;
       text-align: left;
+      font-weight: bold;
     }
     .lora17{
       line-height: $twoFour;
@@ -62,16 +68,21 @@
       line-height: $threeSix;
       text-align: left;
       color: $yellow;
+      font-weight: bold;
     }
   }
   .gold-background{
     .mont21{
       line-height: 1.43;
       text-align: left;
+      font-weight: bold;
     }
     .lora18{
       line-height: $twoFour;
       text-align: left;
+      strong{
+        font-weight: bold;
+      }
     }
     .lora16{
       line-height: $twoFour;
@@ -82,6 +93,9 @@
     .lora15{
       line-height: $twoFour;
       text-align: left;
+    }
+    .mont15{
+      font-weight: 500;
     }
     .bot{
       letter-spacing: 1.8px;
