@@ -401,11 +401,17 @@ table {
   background-color: #f5f5f5;
   width: 100%; }
 
+.yellow-background {
+  background-color: #ffae00; }
+
 .gray-background {
   background-color: #ebebeb; }
 
 .gold-background {
   background-color: #d08e01; }
+
+.footer {
+  background-color: #313131; }
 
 .white-divider {
   padding: 2px;
@@ -414,8 +420,8 @@ table {
 .white-bar {
   padding: 2px;
   background-color: #f5f5f5;
-  width: 100px;
-  margin-left: 55px; }
+  width: 30%;
+  margin-left: 20%; }
 
 .logo-container {
   width: auto;
@@ -424,8 +430,7 @@ table {
   margin: 10px 15px; }
 
 .logo {
-  height: 50px;
-  width: 50px; }
+  height: 100%; }
 
 .home-nav {
   height: 50px; }
@@ -433,10 +438,11 @@ table {
 .counter-container {
   background-color: #ffae00;
   margin: 30px;
+  margin-top: -6%;
   padding: 40px; }
 
 .ticket-container {
-  background-color: #DF8D21;
+  background-color: #d08e01;
   margin: 30px;
   padding: 40px;
   text-align: center; }
@@ -451,6 +457,6 @@ table {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 250px; }
+  height: 16em; }
 
 /*# sourceMappingURL=style.css.map */
