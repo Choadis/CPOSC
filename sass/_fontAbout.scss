@@ -1,0 +1,104 @@
+.about{
+  .white-background{
+    .ticket-container{
+      .mont24{
+        letter-spacing: 1.2px;
+        text-align: center;
+        font-weight: bold;
+      }
+      .mont18{
+        letter-spacing: .9px;
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+    .mont24{
+      line-height: 1.5;
+      letter-spacing: 1.2px;
+      text-align: left;
+      font-weight: bold;
+    }
+    .lora16{
+      line-height: $twoFour;
+      letter-spacing: .8px;
+      text-align: left;
+    }
+  }
+  .gray-background{
+    .mont24{
+      line-height: $twoFour;
+      letter-spacing: 1.2px;
+      text-align: left;
+    }
+    .lora16{
+      line-height: $twoFour;
+      letter-spacing: .8px;
+      text-align: left;
+    }
+    .lora21{
+      line-height: $twoFour;
+      text-align: left;
+      font-weight: bold;
+    }
+    .lora18{
+      line-height: $twoFour;
+      letter-spacing: .9px;
+      text-align: left;
+    }
+  }
+  .two{
+    .mont24{
+      line-height: $threeSix;
+      letter-spacing: 1.2px;
+      text-align: left;
+      font-weight: bold;
+    }
+    .lora18{
+      line-height: $twoFour;
+      letter-spacing: .9px;
+      text-align: left;
+    }
+    .form{
+      .lora18{
+        line-height: $threeSix;
+        letter-spacing: .9px;
+        text-align: left;
+      }
+    }
+    .mont18{
+      line-height: $threeSix;
+      letter-spacing: .9px;
+      text-align: center;
+    }
+  }
+  .gold-background{
+    .mont21{
+      line-height: 1.43;
+      text-align: left;
+      font-weight: bold;
+    }
+    .lora18{
+      line-height: $twoFour;
+      text-align: left;
+      strong{
+        font-weight: bold;
+      }
+    }
+    .lora16{
+      line-height: $twoFour;
+      text-align: left;
+    }
+  }
+  .footer{
+    .lora15{
+      line-height: $twoFour;
+      text-align: left;
+    }
+    .mont15{
+      font-weight: 500;
+    }
+    .bot{
+      letter-spacing: 1.8px;
+    }
+  }
+}
