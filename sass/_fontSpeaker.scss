@@ -1,0 +1,98 @@
+.speaker{
+  .white-background{
+    .ticket-container{
+      .mont24{
+        letter-spacing: 1.2px;
+        text-align: center;
+        color: white;
+      }
+      .mont18{
+        letter-spacing: .8px;
+        text-align: center;
+        font-weight: bold;
+        color: $yellow;
+      }
+    }
+    .mont16:first-child{
+      color: $yellow;
+    }
+    .mont16{
+      letter-spacing: 0.8px;
+      color: black;
+    }
+    .mont13{
+      line-height: 1.62;
+      letter-spacing: 0.6px;
+      text-align: left;
+      font-weight: 500;
+    }
+    .mont18{
+      line-height: 1.5;
+      letter-spacing: 0.9px;
+      text-align: left;
+      font-weight: 500;
+    }
+    .lora16{
+      line-height: 1.69;
+      letter-spacing: 0.8px;
+      text-align: left;
+    }
+    .OR:first-child{
+      color: black;
+    }
+  }
+  .gray-background{
+    .mont16:first-child{
+      color: $yellow;
+    }
+    .mont18{
+      line-height: $twoFour;
+      letter-spacing: .8px;
+      text-align: left;
+      font-weight: bold;
+    }
+    .mont16{
+      line-height: 1.5;
+      letter-spacing: 0.9px;
+      text-align: left;
+      font-weight: 500;
+    }
+    .lora16{
+      line-height: 1.69;
+      letter-spacing: .8px;
+    }
+    .OR:first-child{
+      color: black;
+    }
+  }
+  .gold-background{
+    .mont21{
+      line-height: 1.43;
+      text-align: left;
+      font-weight: bold;
+    }
+    .lora18{
+      line-height: $twoFour;
+      text-align: left;
+      strong{
+        font-weight: bold;
+      }
+    }
+    .lora16{
+      line-height: $twoFour;
+      text-align: left;
+    }
+  }
+  .footer{
+    .lora15{
+      line-height: $twoFour;
+      text-align: left;
+    }
+    .mont15{
+      font-weight: 500;
+    }
+    .bot{
+      letter-spacing: 1.8px;
+    }
+  }
+}

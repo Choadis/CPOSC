@@ -157,11 +157,13 @@ table {
 .index .ticket-container .mont24 {
   letter-spacing: 1.2px;
   text-align: center;
-  font-weight: bold; }
+  font-weight: bold;
+  color: white; }
 .index .ticket-container .mont18 {
   letter-spacing: .9px;
   text-align: center;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #ffae00; }
 .index .white-background .lora21 {
   line-height: 1.52;
   text-align: left;
@@ -316,6 +318,73 @@ table {
 .tickets .footer .mont18 {
   font-weight: 500; }
 .tickets .footer .bot {
+  letter-spacing: 1.8px; }
+
+.speaker .white-background .ticket-container .mont24 {
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: white; }
+.speaker .white-background .ticket-container .mont18 {
+  letter-spacing: .8px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffae00; }
+.speaker .white-background .mont16:first-child {
+  color: #ffae00; }
+.speaker .white-background .mont16 {
+  letter-spacing: 0.8px;
+  color: black; }
+.speaker .white-background .mont13 {
+  line-height: 1.62;
+  letter-spacing: 0.6px;
+  text-align: left;
+  font-weight: 500; }
+.speaker .white-background .mont18 {
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  text-align: left;
+  font-weight: 500; }
+.speaker .white-background .lora16 {
+  line-height: 1.69;
+  letter-spacing: 0.8px;
+  text-align: left; }
+.speaker .white-background .OR:first-child {
+  color: black; }
+.speaker .gray-background .mont16:first-child {
+  color: #ffae00; }
+.speaker .gray-background .mont18 {
+  line-height: 1.41;
+  letter-spacing: .8px;
+  text-align: left;
+  font-weight: bold; }
+.speaker .gray-background .mont16 {
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  text-align: left;
+  font-weight: 500; }
+.speaker .gray-background .lora16 {
+  line-height: 1.69;
+  letter-spacing: .8px; }
+.speaker .gray-background .OR:first-child {
+  color: black; }
+.speaker .gold-background .mont21 {
+  line-height: 1.43;
+  text-align: left;
+  font-weight: bold; }
+.speaker .gold-background .lora18 {
+  line-height: 1.41;
+  text-align: left; }
+  .speaker .gold-background .lora18 strong {
+    font-weight: bold; }
+.speaker .gold-background .lora16 {
+  line-height: 1.41;
+  text-align: left; }
+.speaker .footer .lora15 {
+  line-height: 1.41;
+  text-align: left; }
+.speaker .footer .mont15 {
+  font-weight: 500; }
+.speaker .footer .bot {
   letter-spacing: 1.8px; }
 
 .white-background {
