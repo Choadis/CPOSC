@@ -4,7 +4,6 @@
   color: $yellow;
   letter-spacing: 1.2;
   font-weight: bold;
-
 }
 .herohome{
   @extend .herohead;
@@ -15,38 +14,47 @@
 .mont24{
   font-family: $mont;
   font-size: 24px;
+  padding: 20px;
 }
 .mont18{
   font-family: $mont;
   font-size: 18px;
+  padding: 20px;
 }
 .mont16{
   font-family: $mont;
   font-size: 16px;
+  padding: 20px;
 }
 .mont21{
   font-family: $mont;
   font-size: 21px;
+  padding: 20px;
 }
 .lora16{
   font-family: $lora;
   font-size: 16px;
+  padding: 20px;
 }
 .lora21{
   font-family: $lora;
   font-size: 21px;
+  padding: 20px;
 }
 .lora18{
   font-family: $lora;
   font-size: 18px;
+  padding: 20px;
 }
 .lora17{
   font-family: $lora;
   font-size: 17px;
+  padding: 20px;
 }
 .lora15{
   font-family: $lora;
   font-size: 15px;
+  padding: 20px;
 }
 .mont14{
   font-family: $mont;
@@ -54,8 +62,10 @@
   font-weight: bolder;
   text-transform: capitalize;
   color: $white;
+  
 }
 .mont13{
   font-family: $mont;
   font-size: 13px;
+  padding: 20px;
 }
