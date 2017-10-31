@@ -149,19 +149,23 @@ table {
 .index .counter-container .mont18 {
   letter-spacing: .9px;
   text-align: center;
-  color: white; }
+  color: white;
+  font-weight: bold; }
 .index .counter-container .mont21 {
   text-align: center;
   color: white; }
 .index .ticket-container .mont24 {
   letter-spacing: 1.2px;
-  text-align: center; }
+  text-align: center;
+  font-weight: bold; }
 .index .ticket-container .mont18 {
   letter-spacing: .9px;
-  text-align: center; }
+  text-align: center;
+  font-weight: bold; }
 .index .white-background .lora21 {
   line-height: 1.52;
-  text-align: left; }
+  text-align: left;
+  font-weight: bold; }
 .index .white-background .lora17 {
   line-height: 1.41;
   letter-spacing: 0.9px;
@@ -169,14 +173,16 @@ table {
 .index .gray-background .lora18 {
   line-height: 1.41;
   letter-spacing: .9px;
-  text-align: left; }
+  text-align: left;
+  font-weight: bold; }
 .index .gray-background .lora16 {
   line-height: 1.41;
   letter-spacing: .8px;
   text-align: left; }
 .index .two .lora21 {
   line-height: 1.71;
-  text-align: left; }
+  text-align: left;
+  font-weight: bold; }
 .index .two .lora17 {
   line-height: 1.41;
   letter-spacing: .9px;
@@ -188,19 +194,25 @@ table {
 .index .two .mont21 {
   line-height: 1.71;
   text-align: left;
-  color: #ffae00; }
+  color: #ffae00;
+  font-weight: bold; }
 .index .gold-background .mont21 {
   line-height: 1.43;
-  text-align: left; }
+  text-align: left;
+  font-weight: bold; }
 .index .gold-background .lora18 {
   line-height: 1.41;
   text-align: left; }
+  .index .gold-background .lora18 strong {
+    font-weight: bold; }
 .index .gold-background .lora16 {
   line-height: 1.41;
   text-align: left; }
 .index .footer .lora15 {
   line-height: 1.41;
   text-align: left; }
+.index .footer .mont15 {
+  font-weight: 500; }
 .index .footer .bot {
   letter-spacing: 1.8px; }
 
@@ -272,7 +284,7 @@ table {
   background-color: #ebebeb; }
 
 .gold-background {
-  background-color: #DF8D21; }
+  background-color: #d08e01; }
 
 .white-divider {
   padding: 2px;
