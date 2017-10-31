@@ -2,6 +2,12 @@
   padding: 2px;
   background-color: $white;
 }
+.white-bar {
+  padding: 2px;
+  background-color: $white;
+  width: 100px;
+  margin-left: 55px;
+}
 .logo-container{
   width: auto;
   height: 70px;
@@ -11,4 +17,23 @@
 .logo {
   height: 50px;
   width: 50px;
+}
+.home-nav {
+  height: 50px;
+}
+.counter-container {
+  background-color: $yellow;
+  margin: 30px;
+  padding: 40px;
+}
+.ticket-container {
+  background-color: $goldenrod;
+  margin: 30px;
+  padding: 40px;
+  text-align: center;
+}
+.ticket-button {
+  background-color: $white;
+  padding: 5px;
+  margin-top: 15px;
 }
