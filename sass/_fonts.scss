@@ -4,11 +4,13 @@
   color: $yellow;
   letter-spacing: 1.2;
   font-weight: bold;
+
 }
 .herohome{
   @extend .herohead;
   font-size: 32px;
   letter-spacing: 1.6;
+  margin: 30px 50px;
 }
 .mont24{
   font-family: $mont;
