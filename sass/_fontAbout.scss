@@ -1,44 +1,20 @@
-.index{
-  .counter-container{
-    .mont18{
-      letter-spacing: .9px;
-      text-align: center;
-      color: white;
-      font-weight: bold;
-    }
-    .mont21{
-      text-align: center;
-      color: white;
-    }
-  }
-  .ticket-container{
-    .mont24{
-      letter-spacing: 1.2px;
-      text-align: center;
-      font-weight: bold;
-    }
-    .mont18{
-      letter-spacing: .9px;
-      text-align: center;
-      font-weight: bold;
-    }
-  }
+.about{
   .white-background{
-    .lora21{
-      line-height: $threeTwo;
-      text-align: left;
-      font-weight: bold;
+    .ticket-container{
+      .mont24{
+        letter-spacing: 1.2px;
+        text-align: center;
+        font-weight: bold;
+      }
+      .mont18{
+        letter-spacing: .9px;
+        text-align: center;
+        font-weight: bold;
+      }
     }
-    .lora17{
-      line-height: $twoFour;
-      letter-spacing: 0.9px;
-      text-align: left;
-    }
-  }
-  .gray-background{
-    .lora18{
-      line-height: $twoFour;
-      letter-spacing: .9px;
+    .mont24{
+      line-height: 1.5;
+      letter-spacing: 1.2px;
       text-align: left;
       font-weight: bold;
     }
@@ -48,27 +24,51 @@
       text-align: left;
     }
   }
-  .two{
+  .gray-background{
+    .mont24{
+      line-height: $twoFour;
+      letter-spacing: 1.2px;
+      text-align: left;
+    }
+    .lora16{
+      line-height: $twoFour;
+      letter-spacing: .8px;
+      text-align: left;
+    }
     .lora21{
-      line-height: $threeSix;
+      line-height: $twoFour;
       text-align: left;
       font-weight: bold;
     }
-    .lora17{
+    .lora18{
       line-height: $twoFour;
       letter-spacing: .9px;
       text-align: left;
     }
-    .mont18{
-      line-height: 1.73;
+  }
+  .two{
+    .mont24{
+      line-height: $threeSix;
+      letter-spacing: 1.2px;
+      text-align: left;
+      font-weight: bold;
+    }
+    .lora18{
+      line-height: $twoFour;
       letter-spacing: .9px;
       text-align: left;
     }
-    .mont21{
+    .form{
+      .lora18{
+        line-height: $threeSix;
+        letter-spacing: .9px;
+        text-align: left;
+      }
+    }
+    .mont18{
       line-height: $threeSix;
-      text-align: left;
-      color: $yellow;
-      font-weight: bold;
+      letter-spacing: .9px;
+      text-align: center;
     }
   }
   .gold-background{
