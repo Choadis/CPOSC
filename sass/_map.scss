@@ -1,0 +1,13 @@
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+  }
+  .overlay {
+     background:transparent;
+     position:relative;
+     width: 100%;
+     height: 400px; /* your iframe height */
+     top: 100%;  /* your iframe height */
+     margin-top:-400px;  /* your iframe height */
+  }
