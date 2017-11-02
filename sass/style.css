@@ -1,19 +1,19 @@
 /*
-Error: Invalid CSS after "color: white": expected "{", was ";.tickets{"
-        on line 2 of _fontTickets.scss
-        from line 7 of style.scss
+Error: Invalid CSS after "color: white": expected "{", was ";.speaker{"
+        on line 2 of _fontSpeaker.scss
+        from line 8 of style.scss
 
 1: 
-2: color: white;.tickets{
+2: color: white;.speaker{
 3:   .white-background{
-4:     .lora18{
-5:       line-height: 1.56;
-6:       letter-spacing: .9px;
-7:       text-align: left;
+4:     .ticket-container{
+5:       .mont24{
+6:         letter-spacing: 1.2px;
+7:         text-align: center;
 
 Backtrace:
-_fontTickets.scss:2
-style.scss:7
+_fontSpeaker.scss:2
+style.scss:8
 /Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
 /Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
 /Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
@@ -69,4 +69,4 @@ style.scss:7
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"color: white\": expected \"{\", was \";.tickets{\"\A         on line 2 of _fontTickets.scss\A         from line 7 of style.scss\A \A 1: \A 2: color: white;.tickets{\A 3:   .white-background{\A 4:     .lora18{\A 5:       line-height: 1.56;\A 6:       letter-spacing: .9px;\A 7:       text-align: left;"; }
+  content: "Error: Invalid CSS after \"color: white\": expected \"{\", was \";.speaker{\"\A         on line 2 of _fontSpeaker.scss\A         from line 8 of style.scss\A \A 1: \A 2: color: white;.speaker{\A 3:   .white-background{\A 4:     .ticket-container{\A 5:       .mont24{\A 6:         letter-spacing: 1.2px;\A 7:         text-align: center;"; }
