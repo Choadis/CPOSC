@@ -468,12 +468,12 @@ table {
 .overlay {
   background: transparent;
   position: relative;
-  width: 640px;
-  height: 480px;
+  width: 100%;
+  height: 400px;
   /* your iframe height */
-  top: 480px;
+  top: 100%;
   /* your iframe height */
-  margin-top: -480px;
+  margin-top: -400px;
   /* your iframe height */ }
 
 .hero {
