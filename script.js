@@ -4,4 +4,4 @@ var mapOptions = {
     mapTypeId: google.maps.MapTypeId.ROADMAP
 };
 
-new google.maps.Map(document.getElementById('map'), mapOptions);
+map = new google.maps.Map(document.getElementById('map'), mapOptions);
