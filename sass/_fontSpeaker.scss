@@ -1,4 +1,5 @@
-.speaker{
+
+color: white;.speaker{
   .white-background{
     .ticket-container{
       .mont24{
@@ -87,12 +88,15 @@
     .lora15{
       line-height: $twoFour;
       text-align: left;
+      color: white;
     }
     .mont15{
       font-weight: 500;
+      color: white;
     }
     .bot{
       letter-spacing: 1.8px;
+      color: white;
     }
   }
 }
