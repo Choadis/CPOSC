@@ -11,15 +11,15 @@
         strong{
           font-weight: bold;
       }
-      .price{
-        color: $goldenrod;
-        line-height: $threeSix;
-      }
     }
     .lora16{
       line-height: $twoFour;
       letter-spacing: .8px;
       text-align: left;
+    }
+    .price{
+      color: $goldenrod;
+      line-height: $threeSix;
     }
   }
   .two{
