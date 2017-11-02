@@ -405,6 +405,78 @@ table {
   .speaker .footer .bot {
     letter-spacing: 1.8px; }
 
+.about .white-background .ticket-container .mont24 {
+  letter-spacing: 1.2px;
+  text-align: center;
+  font-weight: bold; }
+.about .white-background .ticket-container .mont18 {
+  letter-spacing: .9px;
+  text-align: center;
+  font-weight: bold; }
+.about .white-background .mont24 {
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+  text-align: left;
+  font-weight: bold; }
+.about .white-background .lora16 {
+  line-height: 1.41;
+  letter-spacing: .8px;
+  text-align: left; }
+.about .gray-background .mont24 {
+  line-height: 1.41;
+  letter-spacing: 1.2px;
+  text-align: left; }
+.about .gray-background .lora16 {
+  line-height: 1.41;
+  letter-spacing: .8px;
+  text-align: left; }
+.about .gray-background .lora21 {
+  line-height: 1.41;
+  text-align: left;
+  font-weight: bold; }
+.about .gray-background .lora18 {
+  line-height: 1.41;
+  letter-spacing: .9px;
+  text-align: left; }
+.about .two .mont24 {
+  line-height: 1.71;
+  letter-spacing: 1.2px;
+  text-align: left;
+  font-weight: bold; }
+.about .two .lora18 {
+  line-height: 1.41;
+  letter-spacing: .9px;
+  text-align: left; }
+.about .two .form .lora18 {
+  line-height: 1.71;
+  letter-spacing: .9px;
+  text-align: left; }
+.about .two .mont18 {
+  line-height: 1.71;
+  letter-spacing: .9px;
+  text-align: center; }
+.about .yellow-background .mont21 {
+  line-height: 1.43;
+  text-align: left;
+  font-weight: bold; }
+.about .yellow-background .lora18 {
+  line-height: 1.41;
+  text-align: left; }
+  .about .yellow-background .lora18 strong {
+    font-weight: bold; }
+.about .yellow-background .lora16 {
+  line-height: 1.41;
+  text-align: left; }
+.about .footer {
+  color: white; }
+  .about .footer .lora15 {
+    line-height: 1.41;
+    text-align: left; }
+  .about .footer .mont15 {
+    font-weight: 500; }
+  .about .footer .bot {
+    letter-spacing: 1.8px; }
+
 .white-background {
   background-color: #f5f5f5;
   width: 100%; }
@@ -492,5 +564,23 @@ table {
   background-size: cover;
   width: 100%;
   height: 16em; }
+
+.table {
+  width: 90%;
+  margin: 3% auto;
+  border: 1px black; }
+  .table .lora16 {
+    letter-spacing: .8px; }
+  .table .mont24 {
+    letter-spacing: .8px; }
+
+td {
+  width: 16%;
+  line-height: 1.31;
+  padding: 1%; }
+
+th {
+  line-height: 1.52;
+  text-align: left; }
 
 /*# sourceMappingURL=style.css.map */

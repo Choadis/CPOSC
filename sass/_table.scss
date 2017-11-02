@@ -1,0 +1,21 @@
+.table{
+  // display: none;
+  width: 90%;
+  margin: 3% auto;
+  border: 1px black;
+  .lora16{
+    letter-spacing: .8px;
+  }
+  .mont24{
+    letter-spacing: .8px;
+  }
+}
+td{
+  width: 16%;
+  line-height: 1.31;
+  padding: 1%;
+}
+th{
+  line-height: $threeTwo;
+  text-align: left;
+}
