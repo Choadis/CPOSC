@@ -1,4 +1,5 @@
-.tickets{
+
+color: white;.tickets{
   .white-background{
     .lora18{
       line-height: 1.56;
@@ -53,12 +54,15 @@
     .lora15{
       line-height: $twoFour;
       text-align: left;
+      color: white;
     }
     .mont18{
       font-weight: 500;
+      color: white;
     }
     .bot{
       letter-spacing: 1.8px;
+      color: white;
     }
   }
 }
