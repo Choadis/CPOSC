@@ -1,72 +1,474 @@
-/*
-Error: Invalid CSS after "color: white": expected "{", was ";.speaker{"
-        on line 2 of _fontSpeaker.scss
-        from line 8 of style.scss
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
-1: 
-2: color: white;.speaker{
-3:   .white-background{
-4:     .ticket-container{
-5:       .mont24{
-6:         letter-spacing: 1.2px;
-7:         text-align: center;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
 
-Backtrace:
-_fontSpeaker.scss:2
-style.scss:8
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:321:in `to_tree'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/Users/smdahlgren171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"color: white\": expected \"{\", was \";.speaker{\"\A         on line 2 of _fontSpeaker.scss\A         from line 8 of style.scss\A \A 1: \A 2: color: white;.speaker{\A 3:   .white-background{\A 4:     .ticket-container{\A 5:       .mont24{\A 6:         letter-spacing: 1.2px;\A 7:         text-align: center;"; }
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.bar {
+  width: 20px;
+  height: 3px;
+  background-color: #f5f5f5;
+  margin: 5px; }
+
+.burger {
+  width: 35px;
+  height: 35px;
+  padding: 2px;
+  margin: auto;
+  cursor: pointer; }
+
+.ddmenu {
+  display: none;
+  height: auto;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  background-color: #313131;
+  min-width: 200px;
+  z-index: 1;
+  text-align: center;
+  border: 2px solid black; }
+
+.link {
+  display: block;
+  font-size: 21px;
+  text-decoration: none;
+  padding: 20px 0 5px;
+  color: #f5f5f5; }
+
+.nav {
+  position: relative;
+  display: inline-block;
+  float: right; }
+
+.nav:hover .ddmenu {
+  display: block; }
+
+.link:hover {
+  height: 20px;
+  width: auto;
+  background-color: #ffae00;
+  padding-bottom: 3px; }
+
+.herohead, .herohome {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 24px;
+  color: #ffae00;
+  letter-spacing: 1.2;
+  font-weight: bold; }
+
+.herohome {
+  font-size: 32px;
+  letter-spacing: 1.6;
+  margin: 30px 50px; }
+
+.mont24 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 24px;
+  padding: 20px; }
+
+.mont18 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 18px;
+  padding: 20px; }
+
+.mont16 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 16px;
+  padding: 20px; }
+
+.mont21 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 21px;
+  padding: 20px; }
+
+.lora16 {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 16px;
+  padding: 20px; }
+
+.lora21 {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 21px;
+  padding: 20px; }
+
+.lora18 {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 18px;
+  padding: 20px; }
+
+.lora17 {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 17px;
+  padding: 20px; }
+
+.lora15 {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 15px;
+  padding: 20px; }
+
+.mont14 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 13.6px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  color: #f5f5f5; }
+
+.mont13 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 13px;
+  padding: 20px; }
+
+.index .counter-container .mont18 {
+  letter-spacing: .9px;
+  text-align: center;
+  color: white;
+  font-weight: bold; }
+.index .counter-container .mont21 {
+  text-align: center;
+  color: white; }
+.index .ticket-container .mont24 {
+  letter-spacing: 1.2px;
+  text-align: center;
+  font-weight: bold;
+  color: white; }
+.index .ticket-container .mont18 {
+  letter-spacing: .9px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffae00; }
+.index .white-background .lora21 {
+  line-height: 1.52;
+  text-align: left;
+  font-weight: bold; }
+.index .white-background .lora17 {
+  line-height: 1.41;
+  letter-spacing: 0.9px;
+  text-align: left; }
+.index .gray-background .lora18 {
+  line-height: 1.41;
+  letter-spacing: .9px;
+  text-align: left;
+  font-weight: bold; }
+.index .gray-background .lora16 {
+  line-height: 1.41;
+  letter-spacing: .8px;
+  text-align: left; }
+.index .two .lora21 {
+  line-height: 1.71;
+  text-align: left;
+  font-weight: bold; }
+.index .two .lora17 {
+  line-height: 1.41;
+  letter-spacing: .9px;
+  text-align: left; }
+.index .two .mont18 {
+  line-height: 1.73;
+  letter-spacing: .9px;
+  text-align: left; }
+.index .two .mont21 {
+  line-height: 1.71;
+  text-align: left;
+  color: #ffae00;
+  font-weight: bold; }
+.index .yellow-background .mont21 {
+  line-height: 1.43;
+  text-align: left;
+  font-weight: bold; }
+.index .yellow-background .lora18 {
+  line-height: 1.41;
+  text-align: left; }
+  .index .yellow-background .lora18 strong {
+    font-weight: bold; }
+.index .yellow-background .lora16 {
+  line-height: 1.41;
+  text-align: left; }
+.index .footer .lora15 {
+  line-height: 1.41;
+  text-align: left;
+  color: white; }
+.index .footer .mont15 {
+  font-weight: 500;
+  color: white; }
+.index .footer .bot {
+  letter-spacing: 1.8px;
+  color: white; }
+
+.sponsor .white-background .ticket-container .mont24 {
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: white;
+  font-weight: bold; }
+.sponsor .white-background .ticket-container .mont18 {
+  letter-spacing: .9px;
+  text-align: center;
+  color: white;
+  font-weight: bold; }
+.sponsor .white-background .mont21 {
+  line-height: 1.41;
+  text-align: left; }
+.sponsor .white-background .lora16 {
+  line-height: 1.41;
+  letter-spacing: .8px;
+  text-align: left; }
+  .sponsor .white-background .lora16 strong {
+    font-weight: bold; }
+.sponsor .gray-background .mont24 {
+  line-height: 1.41;
+  letter-spacing: 1.2px;
+  text-align: left;
+  font-weight: bold; }
+.sponsor .gray-background .lato18 {
+  line-height: 1.41;
+  letter-spacing: .9px;
+  text-align: left; }
+.sponsor .two .mont21 {
+  line-height: 1.41;
+  text-align: left;
+  font-weight: bold; }
+.sponsor .two .lora16 {
+  line-height: 1.41;
+  letter-spacing: .8px;
+  text-align: left; }
+.sponsor .two .button-container .mont16 {
+  line-height: 1.71;
+  letter-spacing: .8px;
+  text-align: center;
+  color: white; }
+.sponsor .yellow-background .mont21 {
+  line-height: 1.43;
+  text-align: left;
+  font-weight: bold; }
+.sponsor .yellow-background .lora18 {
+  line-height: 1.41;
+  text-align: left;
+  font-weight: bold; }
+.sponsor .yellow-background .lora16 {
+  line-height: 1.41;
+  text-align: left; }
+.sponsor .footer .lora15 {
+  line-height: 1.41;
+  text-align: left;
+  color: white; }
+.sponsor .footer .mont18 {
+  font-weight: 500;
+  color: white; }
+.sponsor .footer .bot {
+  letter-spacing: 1.8px;
+  color: white; }
+
+.tickets .white-background .lora18 {
+  line-height: 1.56;
+  letter-spacing: .9px;
+  text-align: left; }
+.tickets .white-background .mont21 {
+  line-height: 1.41;
+  text-align: left; }
+  .tickets .white-background .mont21 strong {
+    font-weight: bold; }
+  .tickets .white-background .mont21 .price {
+    color: #d08e01;
+    line-height: 1.71; }
+.tickets .white-background .lora16 {
+  line-height: 1.41;
+  letter-spacing: .8px;
+  text-align: left; }
+.tickets .two .mont21 {
+  line-height: 2.57;
+  text-align: left; }
+.tickets .two .mont16 {
+  line-height: 1.71;
+  letter-spacing: .8px;
+  text-align: center; }
+.tickets .yellow-background .mont21 {
+  line-height: 1.43;
+  text-align: left;
+  font-weight: bold; }
+.tickets .yellow-background .lora18 {
+  line-height: 1.41;
+  text-align: left;
+  font-weight: bold; }
+.tickets .yellow-background .lora16 {
+  line-height: 1.41;
+  text-align: left; }
+.tickets .footer .lora15 {
+  line-height: 1.41;
+  text-align: left;
+  color: white; }
+.tickets .footer .mont18 {
+  font-weight: 500;
+  color: white; }
+.tickets .footer .bot {
+  letter-spacing: 1.8px;
+  color: white; }
+
+.speaker .white-background .ticket-container .mont24 {
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: white; }
+.speaker .white-background .ticket-container .mont18 {
+  letter-spacing: .8px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffae00; }
+.speaker .white-background .mont16:first-child {
+  color: #ffae00; }
+.speaker .white-background .mont16 {
+  letter-spacing: 0.8px;
+  color: black; }
+.speaker .white-background .mont13 {
+  line-height: 1.62;
+  letter-spacing: 0.6px;
+  text-align: left;
+  font-weight: 500; }
+.speaker .white-background .mont18 {
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  text-align: left;
+  font-weight: 500; }
+.speaker .white-background .lora16 {
+  line-height: 1.69;
+  letter-spacing: 0.8px;
+  text-align: left; }
+.speaker .white-background .OR:first-child {
+  color: black; }
+.speaker .gray-background .mont16:first-child {
+  color: #ffae00; }
+.speaker .gray-background .mont18 {
+  line-height: 1.41;
+  letter-spacing: .8px;
+  text-align: left;
+  font-weight: bold; }
+.speaker .gray-background .mont16 {
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  text-align: left;
+  font-weight: 500; }
+.speaker .gray-background .lora16 {
+  line-height: 1.69;
+  letter-spacing: .8px; }
+.speaker .gray-background .OR:first-child {
+  color: black; }
+.speaker .yellow-background .mont21 {
+  line-height: 1.43;
+  text-align: left;
+  font-weight: bold; }
+.speaker .yellow-background .lora18 {
+  line-height: 1.41;
+  text-align: left; }
+  .speaker .yellow-background .lora18 strong {
+    font-weight: bold; }
+.speaker .yellow-background .lora16 {
+  line-height: 1.41;
+  text-align: left; }
+.speaker .footer .lora15 {
+  line-height: 1.41;
+  text-align: left;
+  color: white; }
+.speaker .footer .mont15 {
+  font-weight: 500;
+  color: white; }
+.speaker .footer .bot {
+  letter-spacing: 1.8px;
+  color: white; }
+
+.white-background {
+  background-color: #f5f5f5;
+  width: 100%; }
+
+.yellow-background {
+  background-color: #ffae00; }
+
+.gray-background {
+  background-color: #ebebeb; }
+
+.gold-background {
+  background-color: #d08e01; }
+
+.footer {
+  background-color: #313131; }
+
+.white-divider {
+  padding: 2px;
+  background-color: #f5f5f5; }
+
+.white-bar {
+  padding: 2px;
+  background-color: #f5f5f5;
+  width: 30%;
+  margin-left: 20%; }
+
+.logo-container {
+  width: auto;
+  height: 70px;
+  display: inline-block;
+  margin: 10px 15px; }
+
+.logo {
+  height: 100%; }
+
+.home-nav {
+  height: 50px; }
+
+.counter-container {
+  background-color: #ffae00;
+  margin: 30px;
+  margin-top: -6%;
+  padding: 40px; }
+
+.ticket-container {
+  background-color: #d08e01;
+  margin: 30px;
+  padding: 40px;
+  text-align: center; }
+
+.ticket-button {
+  background-color: #f5f5f5;
+  padding: 5px;
+  margin-top: 15px; }
+
+.hero {
+  background-image: url("../image/hero-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 16em; }
+
+/*# sourceMappingURL=style.css.map */
