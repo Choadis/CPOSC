@@ -1,3 +1,4 @@
+
 .tickets{
   .white-background{
     .lora18{
@@ -11,15 +12,15 @@
         strong{
           font-weight: bold;
       }
-      .price{
-        color: $goldenrod;
-        line-height: $threeSix;
-      }
     }
     .lora16{
       line-height: $twoFour;
       letter-spacing: .8px;
       text-align: left;
+    }
+    .price{
+      color: $goldenrod;
+      line-height: $threeSix;
     }
   }
   .two{
@@ -33,7 +34,7 @@
       text-align: center;
     }
   }
-  .gold-background{
+  .yellow-background{
     .mont21{
       line-height: 1.43;
       text-align: left;
@@ -54,11 +55,12 @@
       line-height: $twoFour;
       text-align: left;
     }
-    .mont18{
+    .mont15{
       font-weight: 500;
     }
     .bot{
       letter-spacing: 1.8px;
     }
+    color: white;
   }
 }
