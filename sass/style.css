@@ -468,10 +468,10 @@ table {
 .overlay {
   background: transparent;
   position: relative;
-  width: 100%;
+  width: 640px;
   height: 400px;
   /* your iframe height */
-  top: 100%;
+  top: 400px;
   /* your iframe height */
   margin-top: -400px;
   /* your iframe height */ }
