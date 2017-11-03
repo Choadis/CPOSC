@@ -1,0 +1,52 @@
+.desktop{
+  display: none;
+}
+.table{
+  width: 90%;
+  margin: 3% auto;
+  border: 1px black;
+  .lora16{
+    letter-spacing: .8px;
+  }
+  .mont24{
+    letter-spacing: .8px;
+  }
+}
+td{
+  width: 16%;
+  line-height: 1.31;
+  padding: 1%;
+}
+th{
+  line-height: $threeTwo;
+  text-align: left;
+}
+.mont16{
+  line-height: $threeSix;
+  letter-spacing: .8px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.deets{
+  width: 50%;
+  margin: 100px 5% 50px 40%;
+  h2{
+    font-weight: bold;
+  }
+  .mont24{
+    line-height: $twoFour;
+    letter-spacing: 1.8px;
+    text-align: left;
+  }
+  .lora18{
+    line-height: $twoFour;
+    letter-spacing: .9px;
+    text-align: left;
+  }
+  .lora16{
+    line-height: $twoFour;
+    letter-spacing: .8px;
+    text-align: left;
+  }
+}
