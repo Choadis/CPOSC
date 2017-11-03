@@ -1,4 +1,10 @@
 .sponsor{
+  .herohead{
+    margin: 5%;
+  }
+  .white-bar{
+    margin-top: 5%;
+  }
   .white-background{
     .ticket-container{
       .mont24{
@@ -12,6 +18,7 @@
         text-align: center;
         color: white;
         font-weight: bold;
+        padding: 15px;
       }
     }
     .mont21{
@@ -51,7 +58,7 @@
       letter-spacing: .8px;
       text-align: left;
     }
-    .button-container{
+    .main-button{
       .mont16{
         line-height: $threeSix;
         letter-spacing: .8px;

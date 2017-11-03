@@ -90,6 +90,65 @@ table {
 .nav-contain {
   height: 50%; }
 
+.head-space {
+  margin: 0 6%;
+  padding: 2% 0 0; }
+
+.white-divider {
+  padding: 2px;
+  background-color: #f5f5f5;
+  margin-top: 5%; }
+
+.white-bar {
+  padding: 2px;
+  background-color: #f5f5f5;
+  width: 30%;
+  margin-left: 20%;
+  margin-top: -5%; }
+
+.logo-container {
+  width: auto;
+  height: 70px;
+  display: inline-block;
+  margin: 10px 15px; }
+
+.logo {
+  height: 100%; }
+
+.home-nav {
+  height: 50px; }
+
+.counter-container {
+  background-color: #ffae00;
+  margin: 10%;
+  margin-top: -6%;
+  padding: 10%; }
+
+.ticket-container {
+  width: 90%;
+  height: 90%;
+  background-color: #d08e01;
+  margin: 5%;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-top: 2%; }
+
+.ticket-button {
+  background-color: #f5f5f5;
+  width: 70%;
+  height: 1%;
+  margin: 0 auto; }
+
+.main-button-contain {
+  padding-bottom: 5%;
+  text-align: center; }
+
+.main-button {
+  background-color: #ffae00;
+  padding: 5%;
+  margin-left: 10%;
+  width: 60%; }
+
 .herohead, .herohome {
   font-family: "Lora", Arial, sans-serif;
   font-size: 24px;
@@ -233,6 +292,10 @@ table {
   .index .footer .bot {
     letter-spacing: 1.8px; }
 
+.sponsor .herohead, .sponsor .herohome {
+  margin: 5%; }
+.sponsor .white-bar {
+  margin-top: 5%; }
 .sponsor .white-background .ticket-container .mont24 {
   letter-spacing: 1.2px;
   text-align: left;
@@ -242,7 +305,8 @@ table {
   letter-spacing: .9px;
   text-align: center;
   color: white;
-  font-weight: bold; }
+  font-weight: bold;
+  padding: 15px; }
 .sponsor .white-background .mont21 {
   line-height: 1.41;
   text-align: left; }
@@ -269,7 +333,7 @@ table {
   line-height: 1.41;
   letter-spacing: .8px;
   text-align: left; }
-.sponsor .two .button-container .mont16 {
+.sponsor .two .main-button .mont16 {
   line-height: 1.71;
   letter-spacing: .8px;
   text-align: center;
@@ -318,6 +382,8 @@ table {
   line-height: 1.71;
   letter-spacing: .8px;
   text-align: center; }
+.tickets .two .main-button {
+  margin-bottom: 10%; }
 .tickets .yellow-background .mont21 {
   line-height: 1.43;
   text-align: left;
@@ -339,6 +405,9 @@ table {
   .tickets .footer .bot {
     letter-spacing: 1.8px; }
 
+.speaker .herohome {
+  margin-top: 3%;
+  margin-bottom: 7%; }
 .speaker .white-background .ticket-container .mont24 {
   letter-spacing: 1.2px;
   text-align: center;
@@ -347,7 +416,8 @@ table {
   letter-spacing: .8px;
   text-align: center;
   font-weight: bold;
-  color: #ffae00; }
+  color: #ffae00;
+  padding: 15px; }
 .speaker .white-background .mont16:first-child {
   color: #ffae00; }
 .speaker .white-background .mont16 {
@@ -380,7 +450,8 @@ table {
   line-height: 1.5;
   letter-spacing: 0.9px;
   text-align: left;
-  font-weight: 500; }
+  font-weight: 500;
+  color: black; }
 .speaker .gray-background .lora16 {
   line-height: 1.69;
   letter-spacing: .8px; }
@@ -408,14 +479,22 @@ table {
   .speaker .footer .bot {
     letter-spacing: 1.8px; }
 
+.about .herohead, .about .herohome {
+  margin: 4%; }
+.about .white-bar {
+  margin-top: 5px; }
 .about .white-background .ticket-container .mont24 {
   letter-spacing: 1.2px;
-  text-align: center;
+  text-align: left;
+  color: white;
   font-weight: bold; }
 .about .white-background .ticket-container .mont18 {
   letter-spacing: .9px;
   text-align: center;
+  color: white;
   font-weight: bold; }
+.about .white-background .ticket-container .ticket-button {
+  max-height: 10px; }
 .about .white-background .mont24 {
   line-height: 1.5;
   letter-spacing: 1.2px;
@@ -496,58 +575,6 @@ table {
 .footer {
   background-color: #313131; }
 
-.white-divider {
-  padding: 2px;
-  background-color: #f5f5f5;
-  margin-top: 5%; }
-
-.white-bar {
-  padding: 2px;
-  background-color: #f5f5f5;
-  width: 30%;
-  margin-left: 20%;
-  margin-top: -5%; }
-
-.logo-container {
-  width: auto;
-  height: 70px;
-  display: inline-block;
-  margin: 10px 15px; }
-
-.logo {
-  height: 100%; }
-
-.home-nav {
-  height: 50px; }
-
-.counter-container {
-  background-color: #ffae00;
-  margin: 10%;
-  margin-top: -6%;
-  padding: 10%; }
-
-.ticket-container {
-  background-color: #d08e01;
-  margin: 10%;
-  padding: 10%;
-  text-align: center;
-  margin-top: 2%; }
-
-.ticket-button {
-  background-color: #f5f5f5;
-  padding: 5px;
-  margin-top: 15px; }
-
-.main-button-contain {
-  padding-bottom: 5%;
-  text-align: center; }
-
-.main-button {
-  background-color: #ffae00;
-  padding: 5%;
-  margin-left: 10%;
-  width: 60%; }
-
 #map {
   width: 100%;
   height: 400px;
@@ -571,48 +598,43 @@ table {
   width: 100%;
   height: 16em; }
 
-.desktop {
+.sponsor .desktop {
   display: none; }
-
-.table {
+.sponsor .table {
   width: 90%;
   margin: 3% auto;
   border: 1px black; }
-  .table .lora16 {
+  .sponsor .table .lora16 {
     letter-spacing: .8px; }
-  .table .mont24 {
+  .sponsor .table .mont24 {
     letter-spacing: .8px; }
-
-td {
+.sponsor td {
   width: 16%;
   line-height: 1.31;
   padding: 1%; }
-
-th {
+.sponsor th {
   line-height: 1.52;
   text-align: left; }
-
-.mont16 {
+.sponsor .mont16 {
   line-height: 1.71;
   letter-spacing: .8px;
   text-align: center;
   font-weight: bold;
   color: white; }
-
-.deets {
+.sponsor .deets {
   width: 50%;
   margin: 100px 5% 50px 40%; }
-  .deets h2 {
+  .sponsor .deets h2 {
     font-weight: bold; }
-  .deets .mont24 {
+  .sponsor .deets .mont24 {
     line-height: 1.41;
     letter-spacing: 1.8px;
     text-align: left; }
-  .deets .lora18 {
+  .sponsor .deets .lora18 {
     line-height: 1.41;
     letter-spacing: .9px;
     text-align: left; }
-  .deets .lora16 {
+  .sponsor .deets .lora16 {
     line-height: 1.41;
     letter-spacing: .8px;
     text-align: left; }
