@@ -1,6 +1,7 @@
 .white-divider {
   padding: 2px;
   background-color: $white;
+  margin-top: 5%;
 }
 .white-bar {
   padding: 2px;
@@ -23,15 +24,16 @@
 }
 .counter-container {
   background-color: $yellow;
-  margin: 5%;
+  margin: 10%;
   margin-top: -6%;
-  padding: 40px;
+  padding: 10%;
 }
 .ticket-container {
   background-color: $goldenrod;
-  margin: 5%;
-  padding: 40px;
+  margin: 10%;
+  padding: 10%;
   text-align: center;
+  margin-top: 2%;
 }
 .ticket-button {
   background-color: $white;
