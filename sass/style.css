@@ -90,6 +90,15 @@ table {
 .nav-contain {
   height: 50%; }
 
+a {
+  text-decoration: none; }
+
+.main-button a {
+  color: white; }
+
+.ticket-button a {
+  color: #d08e01; }
+
 .head-space {
   margin: 0 6%;
   padding: 2% 0 0; }
