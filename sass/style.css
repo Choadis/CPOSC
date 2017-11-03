@@ -637,4 +637,15 @@ th {
 .speaker .hero {
   height: 14em; }
 
+.tickets .herohead, .tickets .herohome {
+  padding: 10%; }
+
+.tickets .hero {
+  height: 17em; }
+
+.tickets .white-bar {
+  margin-left: 11%;
+  margin-top: 0;
+  position: absolute; }
+
 /*# sourceMappingURL=style.css.map */
