@@ -87,6 +87,9 @@ table {
   background-color: #ffae00;
   padding-bottom: 3px; }
 
+.nav-contain {
+  height: 50%; }
+
 .herohead, .herohome {
   font-family: "Lora", Arial, sans-serif;
   font-size: 24px;
@@ -423,7 +426,8 @@ table {
 
 .white-divider {
   padding: 2px;
-  background-color: #f5f5f5; }
+  background-color: #f5f5f5;
+  margin-top: 5%; }
 
 .white-bar {
   padding: 2px;
@@ -446,15 +450,16 @@ table {
 
 .counter-container {
   background-color: #ffae00;
-  margin: 5%;
+  margin: 10%;
   margin-top: -6%;
-  padding: 40px; }
+  padding: 10%; }
 
 .ticket-container {
   background-color: #d08e01;
-  margin: 5%;
-  padding: 40px;
-  text-align: center; }
+  margin: 10%;
+  padding: 10%;
+  text-align: center;
+  margin-top: 2%; }
 
 .ticket-button {
   background-color: #f5f5f5;
@@ -500,5 +505,18 @@ table {
 .text-mess {
   padding: 10px;
   border-color: black; }
+
+.speaker .herohome {
+  padding: 10%; }
+
+.speaker .white-bar {
+  padding: 2px;
+  background-color: #f5f5f5;
+  width: 30%;
+  margin-left: 25%;
+  margin-top: -15%; }
+
+.speaker .hero {
+  height: 14em; }
 
 /*# sourceMappingURL=style.css.map */
