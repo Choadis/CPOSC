@@ -1,15 +1,26 @@
 .about{
+  .herohead{
+    margin: 4%;
+  }
+  .white-bar{
+    margin-top: 5px;
+  }
   .white-background{
     .ticket-container{
       .mont24{
         letter-spacing: 1.2px;
-        text-align: center;
+        text-align: left;
+        color: white;
         font-weight: bold;
       }
       .mont18{
         letter-spacing: .9px;
         text-align: center;
+        color: white;
         font-weight: bold;
+      }
+      .ticket-button{
+        max-height: 10px;
       }
     }
     .mont24{

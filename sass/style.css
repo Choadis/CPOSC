@@ -233,6 +233,10 @@ table {
   .index .footer .bot {
     letter-spacing: 1.8px; }
 
+.sponsor .herohead, .sponsor .herohome {
+  margin: 5%; }
+.sponsor .white-bar {
+  margin-top: 5%; }
 .sponsor .white-background .ticket-container .mont24 {
   letter-spacing: 1.2px;
   text-align: left;
@@ -269,7 +273,7 @@ table {
   line-height: 1.41;
   letter-spacing: .8px;
   text-align: left; }
-.sponsor .two .button-container .mont16 {
+.sponsor .two .main-button .mont16 {
   line-height: 1.71;
   letter-spacing: .8px;
   text-align: center;
@@ -339,6 +343,9 @@ table {
   .tickets .footer .bot {
     letter-spacing: 1.8px; }
 
+.speaker .herohome {
+  margin-top: 3%;
+  margin-bottom: 7%; }
 .speaker .white-background .ticket-container .mont24 {
   letter-spacing: 1.2px;
   text-align: center;
@@ -380,7 +387,8 @@ table {
   line-height: 1.5;
   letter-spacing: 0.9px;
   text-align: left;
-  font-weight: 500; }
+  font-weight: 500;
+  color: black; }
 .speaker .gray-background .lora16 {
   line-height: 1.69;
   letter-spacing: .8px; }
@@ -408,14 +416,22 @@ table {
   .speaker .footer .bot {
     letter-spacing: 1.8px; }
 
+.about .herohead, .about .herohome {
+  margin: 4%; }
+.about .white-bar {
+  margin-top: 5px; }
 .about .white-background .ticket-container .mont24 {
   letter-spacing: 1.2px;
-  text-align: center;
+  text-align: left;
+  color: white;
   font-weight: bold; }
 .about .white-background .ticket-container .mont18 {
   letter-spacing: .9px;
   text-align: center;
+  color: white;
   font-weight: bold; }
+.about .white-background .ticket-container .ticket-button {
+  max-height: 10px; }
 .about .white-background .mont24 {
   line-height: 1.5;
   letter-spacing: 1.2px;
@@ -527,16 +543,19 @@ table {
   padding: 10%; }
 
 .ticket-container {
+  width: 90%;
+  height: 90%;
   background-color: #d08e01;
-  margin: 10%;
-  padding: 10%;
+  margin: 5%;
+  padding-bottom: 20px;
   text-align: center;
   margin-top: 2%; }
 
 .ticket-button {
   background-color: #f5f5f5;
-  padding: 5px;
-  margin-top: 15px; }
+  width: 70%;
+  height: 1%;
+  margin: 0 auto; }
 
 .main-button-contain {
   padding-bottom: 5%;
