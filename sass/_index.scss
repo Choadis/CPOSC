@@ -29,16 +29,19 @@
   padding: 10%;
 }
 .ticket-container {
+  width: 90%;
+  height: 90%;
   background-color: $goldenrod;
-  margin: 10%;
-  padding: 10%;
+  margin: 5%;
+  padding-bottom: 20px;
   text-align: center;
   margin-top: 2%;
 }
 .ticket-button {
   background-color: $white;
-  padding: 5px;
-  margin-top: 15px;
+  width: 70%;
+  height: 1%;
+  margin: 0 auto;
 }
 .main-button-contain {
 padding-bottom: 5%;
