@@ -134,10 +134,10 @@ a {
   padding: 10%; }
 
 .ticket-container {
-  width: 90%;
-  height: 90%;
+  width: 300px;
+  height: 150px;
   background-color: #d08e01;
-  margin: 5%;
+  margin: 0 20% 0 20%;
   padding-bottom: 20px;
   text-align: center;
   margin-top: 2%; }
