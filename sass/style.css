@@ -137,7 +137,7 @@ a {
   width: 300px;
   height: 150px;
   background-color: #d08e01;
-  margin: 0 20% 0 20%;
+  margin: 0 10% 20%;
   padding-bottom: 20px;
   text-align: center;
   margin-top: 2%; }
@@ -414,6 +414,12 @@ a {
   .tickets .footer .bot {
     letter-spacing: 1.8px; }
 
+.speaker .gold-carrot {
+  font-size: 40px;
+  color: #ffae00;
+  margin-left: 90%;
+  position: relative;
+  top: -60px; }
 .speaker .herohome {
   margin-top: 3%;
   margin-bottom: 7%; }
@@ -503,7 +509,7 @@ a {
   color: white;
   font-weight: bold; }
 .about .white-background .ticket-container .ticket-button {
-  max-height: 10px; }
+  max-height: 6px; }
 .about .white-background .mont24 {
   line-height: 1.5;
   letter-spacing: 1.2px;
@@ -693,5 +699,8 @@ a {
 
 .zero {
   padding: 0 30px 0 0; }
+
+.awesome {
+  font-size: 30px; }
 
 /*# sourceMappingURL=style.css.map */
