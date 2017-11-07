@@ -1,5 +1,53 @@
 @media only screen and (min-width: 480px){
-
+}
+=======
+.index{
+  .hero{
+    .white-bar{
+      margin-top: -14px;
+    }
+  }
+  .ticket-container{
+    margin-left: 20%;
+  }
+}
+.speaker{
+  body{
+    padding: 5px;
+  }
+  .herohome{
+    padding-top: 20px;
+    margin-right: 30px;
+  }
+  .ticket-container{
+    margin-left: 20%;
+  }
+}
+.sponsor{
+  .ticket-container{
+    margin-left: 20%;
+  }
+  .two{
+    .main-button{
+      margin-left: 15%;
+    }
+  }
+}
+.tickets{
+  .main-button{
+    margin-left: 18%;
+  }
+}
+.about{
+  .ticket-container{
+    margin-left: 20%;
+  }
+  form{
+    .main-button{
+      margin-left: 10%;
+    }
+  }
+}
 }
 @media only screen and (min-width: 768px){
   .index{
