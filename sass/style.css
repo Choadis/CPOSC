@@ -564,6 +564,13 @@ a {
 .about .yellow-background .lora16 {
   line-height: 1.41;
   text-align: left; }
+.about .form {
+  padding: 0 5%; }
+  .about .form input {
+    width: 280px;
+    height: 44px; }
+  .about .form .message {
+    height: 200px; }
 .about .footer {
   color: white; }
   .about .footer .lora15 {
