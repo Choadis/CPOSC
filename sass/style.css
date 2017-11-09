@@ -55,7 +55,7 @@ table {
   cursor: pointer; }
 
 .ddmenu {
-  display: none;
+  display: block;
   height: auto;
   position: absolute;
   right: 0;
@@ -65,6 +65,9 @@ table {
   z-index: 1;
   text-align: center;
   border: 2px solid black; }
+
+.none {
+  display: none; }
 
 .link {
   display: block;
@@ -77,9 +80,6 @@ table {
   position: relative;
   display: inline-block;
   float: right; }
-
-.nav:hover .ddmenu {
-  display: block; }
 
 .link:hover {
   height: 20px;
@@ -136,7 +136,7 @@ a {
 .ticket-container {
   width: 300px;
   background-color: #d08e01;
-  margin: 0 10% 15%;
+  margin: 0 auto 15%;
   padding-bottom: 20px;
   text-align: center;
   margin-top: 2%; }
@@ -707,6 +707,33 @@ a {
 
 .awesome {
   font-size: 30px; }
+
+@media only screen and (min-width: 480px) {
+  .index .hero .white-bar {
+    margin-top: -14px; }
+  .index .ticket-container {
+    margin-left: 20%; }
+
+  .speaker body {
+    padding: 5px; }
+  .speaker .herohome {
+    padding-top: 20px;
+    margin-right: 30px; }
+  .speaker .ticket-container {
+    margin-left: 20%; }
+
+  .sponsor .ticket-container {
+    margin-left: 20%; }
+  .sponsor .two .main-button {
+    margin-left: 15%; }
+
+  .tickets .main-button {
+    margin-left: 18%; }
+
+  .about .ticket-container {
+    margin-left: 20%; }
+  .about form .main-button {
+    margin-left: 10%; } }
 @media only screen and (min-width: 768px) {
   .index .hero {
     height: 400px; }
@@ -783,30 +810,4 @@ a {
     margin: 40px 40px 210px 20px;
     padding-bottom: 30px; } }
 
-@media only screen and (min-width: 480px) {
-  .index .hero .white-bar {
-    margin-top: -14px; }
-  .index .ticket-container {
-    margin-left: 20%; }
-
-  .speaker body {
-    padding: 5px; }
-  .speaker .herohome {
-    padding-top: 20px;
-    margin-right: 30px; }
-  .speaker .ticket-container {
-    margin-left: 20%; }
-
-  .sponsor .ticket-container {
-    margin-left: 20%; }
-  .sponsor .two .main-button {
-    margin-left: 15%; }
-
-  .tickets .main-button {
-    margin-left: 18%; }
-
-  .about .ticket-container {
-    margin-left: 20%; }
-  .about form .main-button {
-    margin-left: 10%; } }
 /*# sourceMappingURL=style.css.map */
