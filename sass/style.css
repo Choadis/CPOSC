@@ -129,7 +129,8 @@ a {
 
 .counter-container {
   background-color: #ffae00;
-  margin: 10%;
+  margin: 3%;
+  height: auto;
   margin-top: -6%;
   padding: 10%; }
 
@@ -595,6 +596,17 @@ a {
 
 .footer {
   background-color: #313131; }
+
+.counter-block {
+  height: 80%;
+  width: 25%;
+  background-color: white;
+  display: inline-block; }
+
+.counter-box {
+  height: 70px;
+  width: 99%;
+  margin-left: 12%; }
 
 #map {
   width: 100%;
