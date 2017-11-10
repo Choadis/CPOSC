@@ -44,14 +44,15 @@ a{
 }
 .counter-container {
   background-color: $yellow;
-  margin: 10%;
+  margin: 3%;
+  height: auto;
   margin-top: -6%;
   padding: 10%;
 }
 .ticket-container {
   width: 300px;
   background-color: $goldenrod;
-  margin: 0 10% 15%;
+  margin: 0 auto 15%;
   padding-bottom: 20px;
   text-align: center;
   margin-top: 2%;
