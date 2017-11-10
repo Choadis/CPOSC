@@ -11,6 +11,12 @@ a{
     color: $goldenrod;
   }
 }
+.counter-box{
+  .counter-block{
+    font-size: 60px;
+    padding-left: 10px;
+  }
+}
 .head-space{
   margin: 0 6%;
   padding: 2% 0 0;

@@ -99,6 +99,10 @@ a {
 .ticket-button a {
   color: #d08e01; }
 
+.counter-box .counter-block {
+  font-size: 60px;
+  padding-left: 10px; }
+
 .head-space {
   margin: 0 6%;
   padding: 2% 0 0; }
@@ -609,7 +613,7 @@ a {
 .counter-box {
   height: 70px;
   width: 99%;
-  margin-left: 12%; }
+  margin-left: 5%; }
 
 #map {
   width: 100%;
