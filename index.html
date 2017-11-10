@@ -6,6 +6,11 @@
   type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700%7CMontserrat:400,500,700,800" rel="stylesheet">
   <meta name=viewport content="width=device-width, initial-scale=1">
+  <script>
+  function hideIt(cls){
+    document.getElementsByClassName(cls)[0].classList.toggle('none');
+  }
+  </script>
 </head>
 <body class="index">
   <section class="hero">
@@ -20,7 +25,7 @@
       </div>
       <!--Make Uppercase via CSS-->
       <div>
-        <nav class="nav" onClick = hideIt(ddmenu)>
+        <nav class="nav" onClick = "hideIt('ddmenu')">
           <div class="burger">
             <div class="bar"></div>
             <div class="bar"></div>
@@ -51,11 +56,11 @@
         Days until CPOSC 2018
       </h1>
       <div class="counter-box">
-      <div class="counter-block">
+      <div class="counter-block count-box1" id="days">
       </div>
-      <div class="counter-block">
+      <div class="counter-block count-box2" id="hours">
       </div>
-      <div class="counter-block">
+      <div class="counter-block count-box3" id="minutes">
       </div>
     </div>
       <p class="mont21">November 4, 2018</p>
