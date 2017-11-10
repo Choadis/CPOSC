@@ -7,6 +7,12 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700%7CMontserrat:400,500,700,800" rel="stylesheet">
   <meta name=viewport content="width=device-width, initial-scale=1">
   <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <script>
+  function hideIt(id){
+    document.getElementById(id).classList.toggle('none');
+  }
+  </script>
+</footer>
 </head>
 <body class="speaker">
   <section class="hero">
@@ -64,9 +70,9 @@
   </section>
   <section class="gray-background">
     <h1 class="mont16"> First Session </h1>
-    <div class="gold-carrot"> &#8964; </div>
+    <div class="gold-carrot" onClick = hideIt(div1)> &#8964; </div>
     <section>
-      <div class="none">
+      <div class="none" id="div1">
         <p class="mont16"> 9:20am - 9:50am </p>
       <div>
         <h1 class="mont18"> OMG How do I even Start an Open Source Project? </h1>
@@ -91,7 +97,7 @@
       <h1 class="mont16"><strong> Second Session </strong></h1>
       <div class="gold-carrot"> &#8964; </div>
     </div>
-    <div class="none">
+    <div class="none" id="div2">
     <div>
       <p class="mont16"> 10:00am - 10:30am </p>
       <h1 class="mont18"><strong> Kubernetes 101 </strong></h1>
@@ -115,7 +121,7 @@
       <h1 class="mont16"><strong>Third Session </strong></h1>
       <div class="gold-carrot"> &#8964; </div>
       </div>
-    <div class="none">
+    <div class="none" id="div3">
       <div>
       <p class="mont16"><font color="black"> 10:40am - 11:10am </font></p>
       <h1 class="mont18"><strong> Kubernetes: a Deep Dive </strong></h1>
@@ -143,7 +149,7 @@
     <h1 class="mont16"><strong> Fourth Session </strong></h1>
     <div class="gold-carrot"> &#8964; </div>
     <section>
-      <div class="none">
+      <div class="none" id="div4">
         <p class="mont16"> 12:25pm - 12:55pm </p>
       <div>
         <h1 class="mont18"><strong> Open Mobility: Valhalla and Opentraffic </strong></h1>
@@ -167,7 +173,7 @@
     <h1 class="mont16"><strong> Fifth Session </strong></h1>
     <div class="gold-carrot"> &#8964; </div>
     <section>
-      <div class="none">
+      <div class="none" id="div5">
         <p class="mont16"> 1:05pm - 1:35pm </p>
       <div>
         <h1 class="mont18"><strong> Introduction to Blockchain </strong></h1>
@@ -191,7 +197,7 @@
     <h1 class="mont16"><strong> Sixth Session </strong></h1>
     <div class="gold-carrot"> &#8964; </div>
     <section>
-      <div class="none">
+      <div class="none" id="div6">
           <p class="mont16"> 1:45pm - 2:15pm </p>
       <div>
         <h1 class="mont18"><strong> Open Source Home Automation </strong></h1>
@@ -214,7 +220,7 @@
   <section class="white-background">
     <h1 class="mont16"><strong> Seventh Session </strong></h1>
     <div class="gold-carrot"> &#8964; </div>
-      <div class="none">
+      <div class="none" id="div7">
         <p class="mont16"> 2:45pm - 3:15pm </p>
         <section>
       <div>
@@ -284,6 +290,5 @@
       <h1 class="mont18">Connect with CPOSC</h1>
       <h1 class="mont18">#CPOSC2017</h1>
       <script src="script.js"></script>
-    </footer>
   </body>
   <html>

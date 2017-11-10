@@ -7,12 +7,5 @@ button.addEventListener('click', function(){
 });
 
 // Collapsing carrots //
-var carrotButton = body.getElementsByClassName('gold-carrot');
-var none = body.getElementsByClassName('none');
-console.log(carrotButton);
 
-// carrotButton.addEventListener('click', function(){
-//     if (none.classList == 'none'){
-//     div.classList.toggle('none');
-//   }
-// });
+// function hideIt(id)
