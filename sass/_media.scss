@@ -157,5 +157,82 @@
   }
 }
 @media only screen and (min-width: 1000px){
-
+.index {
+  .hero{
+    height: 500px;
+  }
+  .herohome {
+    margin-right: 500px;
+    line-height: 70px;
+    margin-left: 70px;
+  }
+  .white-bar {
+    width:10%;
+    margin: -20px 0px 0px 80px;
+  }
+  .white-divider {
+    margin-top: 0;
+  }
+  .ticket-container {
+    margin: 25px 50px 60px 70px;
+  }
+  .nav {
+    display: none;
+  }
+  .burger {
+    display: none;
+  }
+  .home-nav {
+    display: none;
+  }
+  .desknav {
+    display: inline-block;
+    margin: 3% 1% 4% 5%;
+    color: white;
+  }
+  .gray-background {
+    padding-left: 400px;
+  }
+  .deskmap {
+    display: block;
+  }
+  .white-background{
+    padding-left: 30px;
+  }
+  .overlay {
+    display: none;
+  }
+}
+.speaker {
+  .hero{
+    height: 300px;
+  }
+  .herohome {
+    line-height: 70px;
+    margin-left: 70px;
+  }
+  .white-bar {
+    width:10%;
+  }
+  .white-divider {
+    margin-top: 0;
+  }
+  .ticket-container {
+    margin: 25px 50px 60px 70px;
+  }
+  .nav {
+    display: none;
+  }
+  .burger {
+    display: none;
+  }
+  .home-nav {
+    display: none;
+  }
+  .desknav {
+    display: inline-block;
+    margin: 3% 5% 3% 8%;
+    color: white;
+  }
+}
 }
