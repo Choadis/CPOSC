@@ -8,8 +8,8 @@
   <meta name=viewport content="width=device-width, initial-scale=1">
   <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
   <script>
-  function hideIt(id){
-    document.getElementById(id).classList.toggle('none');
+  function hideIt(cls){
+    document.getElementByClass(cls).classList.toggle('none');
   }
   </script>
 </footer>
@@ -18,7 +18,7 @@
   <section class="hero">
     <header>
       <div class="nav-contain">
-        <nav class="nav">
+        <nav class="nav" onClick = hideIt(ddmenu)>
           <div class="burger">
             <div class="bar"></div>
             <div class="bar"></div>
@@ -72,7 +72,7 @@
     <h1 class="mont16"> First Session </h1>
     <div class="gold-carrot" onClick = hideIt(div1)> &#8964; </div>
     <section>
-      <div class="none" id="div1">
+      <div class="none div1">
         <p class="mont16"> 9:20am - 9:50am </p>
       <div>
         <h1 class="mont18"> OMG How do I even Start an Open Source Project? </h1>
@@ -95,9 +95,9 @@
   <section class="white-background two">
     <div>
       <h1 class="mont16"><strong> Second Session </strong></h1>
-      <div class="gold-carrot"> &#8964; </div>
+      <div class="gold-carrot" onClick = hideIt(div2)> &#8964; </div>
     </div>
-    <div class="none" id="div2">
+    <div class="none div2">
     <div>
       <p class="mont16"> 10:00am - 10:30am </p>
       <h1 class="mont18"><strong> Kubernetes 101 </strong></h1>
@@ -119,9 +119,9 @@
   <section class="gray-background">
     <div>
       <h1 class="mont16"><strong>Third Session </strong></h1>
-      <div class="gold-carrot"> &#8964; </div>
+      <div class="gold-carrot" onClick = hideIt(div3)> &#8964; </div>
       </div>
-    <div class="none" id="div3">
+    <div class="none div3">
       <div>
       <p class="mont16"><font color="black"> 10:40am - 11:10am </font></p>
       <h1 class="mont18"><strong> Kubernetes: a Deep Dive </strong></h1>
@@ -147,9 +147,9 @@
   </section>
   <section class="gray-background">
     <h1 class="mont16"><strong> Fourth Session </strong></h1>
-    <div class="gold-carrot"> &#8964; </div>
+    <div class="gold-carrot" onClick = hideIt(div4)> &#8964; </div>
     <section>
-      <div class="none" id="div4">
+      <div class="none div4">
         <p class="mont16"> 12:25pm - 12:55pm </p>
       <div>
         <h1 class="mont18"><strong> Open Mobility: Valhalla and Opentraffic </strong></h1>
@@ -171,9 +171,9 @@
   </section>
   <section class="white-background">
     <h1 class="mont16"><strong> Fifth Session </strong></h1>
-    <div class="gold-carrot"> &#8964; </div>
+    <div class="gold-carrot" onClick = hideIt(div5)> &#8964; </div>
     <section>
-      <div class="none" id="div5">
+      <div class="none div5">
         <p class="mont16"> 1:05pm - 1:35pm </p>
       <div>
         <h1 class="mont18"><strong> Introduction to Blockchain </strong></h1>
@@ -195,9 +195,9 @@
   </section>
   <section class="gray-background">
     <h1 class="mont16"><strong> Sixth Session </strong></h1>
-    <div class="gold-carrot"> &#8964; </div>
+    <div class="gold-carrot" onClick = hideIt(div6)> &#8964; </div>
     <section>
-      <div class="none" id="div6">
+      <div class="none div6">
           <p class="mont16"> 1:45pm - 2:15pm </p>
       <div>
         <h1 class="mont18"><strong> Open Source Home Automation </strong></h1>
@@ -219,8 +219,8 @@
   </section>
   <section class="white-background">
     <h1 class="mont16"><strong> Seventh Session </strong></h1>
-    <div class="gold-carrot"> &#8964; </div>
-      <div class="none" id="div7">
+    <div class="gold-carrot" onClick = hideIt(div7)> &#8964; </div>
+      <div class="none div7">
         <p class="mont16"> 2:45pm - 3:15pm </p>
         <section>
       <div>
