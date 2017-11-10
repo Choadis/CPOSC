@@ -9,7 +9,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
   <script>
   function hideIt(cls){
-    document.getElementsByClassName(cls[0]).classList.toggle('none');
+    document.getElementsByClassName(cls).classList.toggle('none');
   }
   </script>
 </footer>
@@ -25,7 +25,7 @@
         <a class="desknav" href="sponsor.html" class="link"> Sponsor </a>
       </div>
         <div class="nav-contain">
-        <nav class="nav" onClick = hideIt(ddmenu)>
+        <nav class="nav" onClick = hideIt('ddmenu')>
           <div class="burger">
             <div class="bar"></div>
             <div class="bar"></div>
@@ -77,7 +77,7 @@
   </section>
   <section class="gray-background">
     <h1 class="mont16"> First Session </h1>
-    <div class="gold-carrot" onClick = hideIt(div1)> &#8964; </div>
+    <div class="gold-carrot" onClick = hideIt('div1')> &#8964; </div>
     <section>
       <div class="none div1">
         <p class="mont16"> 9:20am - 9:50am </p>
@@ -102,7 +102,7 @@
   <section class="white-background two">
     <div>
       <h1 class="mont16"><strong> Second Session </strong></h1>
-      <div class="gold-carrot" onClick = hideIt(div2)> &#8964; </div>
+      <div class="gold-carrot" onClick = hideIt('div2')> &#8964; </div>
     </div>
     <div class="none div2">
     <div>
@@ -126,7 +126,7 @@
   <section class="gray-background">
     <div>
       <h1 class="mont16"><strong>Third Session </strong></h1>
-      <div class="gold-carrot" onClick = hideIt(div3)> &#8964; </div>
+      <div class="gold-carrot" onClick = hideIt('div3')> &#8964; </div>
       </div>
     <div class="none div3">
       <div>
@@ -154,7 +154,7 @@
   </section>
   <section class="gray-background">
     <h1 class="mont16"><strong> Fourth Session </strong></h1>
-    <div class="gold-carrot" onClick = hideIt(div4)> &#8964; </div>
+    <div class="gold-carrot" onClick = hideIt('div4')> &#8964; </div>
     <section>
       <div class="none div4">
         <p class="mont16"> 12:25pm - 12:55pm </p>
@@ -178,7 +178,7 @@
   </section>
   <section class="white-background">
     <h1 class="mont16"><strong> Fifth Session </strong></h1>
-    <div class="gold-carrot" onClick = hideIt(div5)> &#8964; </div>
+    <div class="gold-carrot" onClick = hideIt('div5')> &#8964; </div>
     <section>
       <div class="none div5">
         <p class="mont16"> 1:05pm - 1:35pm </p>
@@ -202,7 +202,7 @@
   </section>
   <section class="gray-background">
     <h1 class="mont16"><strong> Sixth Session </strong></h1>
-    <div class="gold-carrot" onClick = hideIt(div6)> &#8964; </div>
+    <div class="gold-carrot" onClick = hideIt('div6')> &#8964; </div>
     <section>
       <div class="none div6">
           <p class="mont16"> 1:45pm - 2:15pm </p>
@@ -226,7 +226,7 @@
   </section>
   <section class="white-background">
     <h1 class="mont16"><strong> Seventh Session </strong></h1>
-    <div class="gold-carrot" onClick = hideIt(div7)> &#8964; </div>
+    <div class="gold-carrot" onClick = hideIt('div7')> &#8964; </div>
       <div class="none div7">
         <p class="mont16"> 2:45pm - 3:15pm </p>
         <section>
