@@ -103,6 +103,14 @@ table {
 .speaker .hero {
   height: 14em; }
 
+.totalBox {
+  height: 54px;
+  width: 170px;
+  border: 1px solid black;
+  margin-left: 20%;
+  margin-bottom: 10%;
+  font-size: 42px; }
+
 a {
   text-decoration: none; }
 
@@ -711,14 +719,33 @@ a {
   margin-left: 11%;
   position: absolute; }
 
-.ddmenu2 {
+.ticket-menu-box {
   width: 98px;
-  height: 54px;
+  height: 22px;
   background-color: white;
   border: 1px solid black;
   text-align: center;
   margin: 0 0 0 10%;
   font-weight: bold; }
+
+.ddmenu2 {
+  max-width: 78px;
+  margin-left: 32px;
+  height: auto;
+  right: 0;
+  text-align: left;
+  padding: 10px;
+  z-index: 1;
+  border: 1px solid black; }
+
+.hover {
+  padding-left: 5px;
+  font-size: 24px;
+  width: 100%;
+  margin: 0; }
+
+.hover:hover {
+  background-color: #ffae00; }
 
 .ticket-count {
   padding: 10px 0 20px 0; }
