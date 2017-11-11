@@ -910,6 +910,12 @@ a {
   .speaker .desknav {
     display: inline-block;
     margin: 3% 5% 3% 8%;
-    color: white; } }
+    color: white; }
+  .speaker .footer {
+    display: flex; }
+  .speaker .code {
+    width: 50%; }
+  .speaker .connect {
+    margin-left: 20%; } }
 
 /*# sourceMappingURL=style.css.map */
