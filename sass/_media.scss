@@ -157,6 +157,11 @@
   }
 }
 @media only screen and (min-width: 1000px){
+  .ticket-container{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
 .index {
   .hero{
     height: 500px;
