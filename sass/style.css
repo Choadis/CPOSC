@@ -453,36 +453,36 @@ a {
   margin: 0; }
 .speaker .white-bar {
   margin-top: -10%; }
-.speaker .white-background .ticket-container .mont24 {
+.speaker .ticket-container .mont24 {
   letter-spacing: 1.2px;
   text-align: center;
   color: white; }
-.speaker .white-background .ticket-container .mont18 {
+.speaker .ticket-container .white-background .mont18 {
   letter-spacing: .8px;
   text-align: center;
   font-weight: bold;
   color: #ffae00;
   padding: 15px; }
-.speaker .white-background .mont16:first-child {
+.speaker .ticket-container .mont16:first-child {
   color: #ffae00; }
-.speaker .white-background .mont16 {
+.speaker .ticket-container .mont16 {
   letter-spacing: 0.8px;
   color: black; }
-.speaker .white-background .mont13 {
+.speaker .ticket-container .mont13 {
   line-height: 1.62;
   letter-spacing: 0.6px;
   text-align: left;
   font-weight: 500; }
-.speaker .white-background .mont18 {
+.speaker .ticket-container .mont18 {
   line-height: 1.5;
   letter-spacing: 0.9px;
   text-align: left;
   font-weight: 500; }
-.speaker .white-background .lora16 {
+.speaker .ticket-container .lora16 {
   line-height: 1.69;
   letter-spacing: 0.8px;
   text-align: left; }
-.speaker .white-background .OR:first-child {
+.speaker .ticket-container .OR:first-child {
   color: black; }
 .speaker .gray-background .mont16:first-child {
   color: #ffae00; }
@@ -528,24 +528,24 @@ a {
   margin: 4%; }
 .about .white-bar {
   margin-top: 5px; }
-.about .white-background .ticket-container .mont24 {
+.about .ticket-container .mont24 {
   letter-spacing: 1.2px;
   text-align: left;
   color: white;
   font-weight: bold; }
-.about .white-background .ticket-container .mont18 {
+.about .ticket-container .white-background .mont18 {
   letter-spacing: .9px;
   text-align: center;
   color: white;
   font-weight: bold; }
-.about .white-background .ticket-container .ticket-button {
+.about .ticket-container .white-background .ticket-button {
   max-height: 6px; }
-.about .white-background .mont24 {
+.about .ticket-container .mont24 {
   line-height: 1.5;
   letter-spacing: 1.2px;
   text-align: left;
   font-weight: bold; }
-.about .white-background .lora16 {
+.about .ticket-container .lora16 {
   line-height: 1.41;
   letter-spacing: .8px;
   text-align: left; }
