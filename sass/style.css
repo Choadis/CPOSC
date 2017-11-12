@@ -858,6 +858,11 @@ a {
     margin: 40px 40px 210px 20px;
     padding-bottom: 30px; } }
 @media only screen and (min-width: 1000px) {
+  .ticket-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px; }
+
   .index .hero {
     height: 500px; }
   .index .herohome {
