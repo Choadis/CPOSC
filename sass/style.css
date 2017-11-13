@@ -613,8 +613,7 @@ a {
     letter-spacing: 1.8px; }
 
 .white-background {
-  background-color: white;
-  width: 100%; }
+  background-color: white; }
 
 .yellow-background {
   background-color: #ffae00; }
@@ -892,16 +891,34 @@ a {
     padding-left: 400px; }
   .index .deskmap {
     display: block; }
+  .index .white-background .two {
+    width: 0;
+    padding-left: 20px; }
   .index .overlay {
     display: none; }
   .index .yellow-background {
     display: flex; }
+    .index .yellow-background .side-loc {
+      padding: 20px;
+      width: 60%; }
+    .index .yellow-background .mont21 {
+      line-height: 1; }
+    .index .yellow-background .lora18 {
+      line-height: 0.9;
+      font-size: 14px;
+      padding: 5px 0 0 20px; }
+    .index .yellow-background .lora16 {
+      line-height: 0;
+      padding: 15px 10px 10px 20px; }
   .index .mapish {
-    width: 100%; }
+    width: 100%;
+    margin-bottom: -3px; }
   .index .footer {
     display: flex; }
   .index .code {
     width: 50%; }
+  .index .favicon {
+    display: inline-flex; }
   .index .connect {
     margin-left: 20%; }
     .index .connect img {
@@ -922,7 +939,8 @@ a {
   .speaker .white-divider {
     margin-top: 0; }
   .speaker .ticket-container {
-    margin: 25px 50px 60px 70px; }
+    margin: 25px 50px 180px 70px;
+    box-shadow: 2px 5px 10px navajowhite; }
   .speaker .nav {
     display: none; }
   .speaker .burger {
@@ -932,6 +950,48 @@ a {
   .speaker .desknav {
     display: inline-block;
     margin: 3% 5% 3% 8%;
-    color: white; } }
+    color: white; }
+  .speaker .gray-background {
+    padding-left: 400px; }
+  .speaker .white-background {
+    padding-left: 400px; }
+  .speaker .overlay {
+    display: none; }
+  .speaker .yellow-background {
+    display: flex; }
+    .speaker .yellow-background .side-loc {
+      padding: 20px;
+      width: 60%; }
+    .speaker .yellow-background .mont21 {
+      line-height: 1;
+      padding: 30px; }
+    .speaker .yellow-background .lora18 {
+      line-height: 0.9;
+      font-size: 14px;
+      padding: 15px 0 0 30px; }
+    .speaker .yellow-background .lora16 {
+      line-height: 0;
+      padding: 15px 10px 10px 30px; }
+  .speaker .mapish {
+    width: 100%;
+    margin-bottom: -3px; }
+  .speaker .footer {
+    display: flex;
+    height: 200px; }
+  .speaker .code {
+    width: 50%;
+    padding-top: 20px; }
+  .speaker .favicon {
+    display: inline-flex; }
+  .speaker .connect {
+    margin-left: 20%;
+    padding-top: 20px; }
+    .speaker .connect img {
+      border-radius: 30px;
+      height: 30px;
+      filter: invert(1) grayscale(1);
+      margin-left: 10px; }
+    .speaker .connect img:hover {
+      filter: invert(0); } }
 
 /*# sourceMappingURL=style.css.map */
