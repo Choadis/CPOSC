@@ -333,25 +333,25 @@ a {
   margin: 5%; }
 .sponsor .white-bar {
   margin-top: -4%; }
-.sponsor .white-background .ticket-container .mont24 {
+.sponsor .ticket-container .mont24 {
   letter-spacing: 1.2px;
   text-align: left;
   color: white;
   font-weight: bold; }
-.sponsor .white-background .ticket-container .mont18 {
+.sponsor .ticket-container .white-background .mont18 {
   letter-spacing: .9px;
   text-align: center;
   color: white;
   font-weight: bold;
   padding: 15px; }
-.sponsor .white-background .mont21 {
+.sponsor .ticket-container .mont21 {
   line-height: 1.41;
   text-align: left; }
-.sponsor .white-background .lora16 {
+.sponsor .ticket-container .lora16 {
   line-height: 1.41;
   letter-spacing: .8px;
   text-align: left; }
-  .sponsor .white-background .lora16 strong {
+  .sponsor .ticket-container .lora16 strong {
     font-weight: bold; }
 .sponsor .gray-background .mont24 {
   line-height: 1.41;
