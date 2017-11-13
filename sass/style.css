@@ -464,10 +464,7 @@ a {
   letter-spacing: .8px;
   text-align: center;
   font-weight: bold;
-  color: #ffae00;
   padding: 15px; }
-.speaker .ticket-container .mont16:first-child {
-  color: #ffae00; }
 .speaker .ticket-container .mont16 {
   letter-spacing: 0.8px;
   color: black; }
@@ -487,8 +484,6 @@ a {
   text-align: left; }
 .speaker .ticket-container .OR:first-child {
   color: black; }
-.speaker .gray-background .mont16:first-child {
-  color: #ffae00; }
 .speaker .gray-background .mont18 {
   line-height: 1.41;
   letter-spacing: .8px;
@@ -498,8 +493,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.9px;
   text-align: left;
-  font-weight: 500;
-  color: black; }
+  font-weight: 500; }
 .speaker .gray-background .lora16 {
   line-height: 1.69;
   letter-spacing: .8px; }
@@ -526,6 +520,10 @@ a {
     font-weight: 500; }
   .speaker .footer .bot {
     letter-spacing: 1.8px; }
+.speaker .gold {
+  color: #ffae00; }
+.speaker strong {
+  font-weight: bold; }
 
 .about .herohead, .about .herohome {
   margin: 4%; }
@@ -644,7 +642,8 @@ a {
 #map {
   width: 100%;
   height: 400px;
-  background-color: grey; }
+  background-color: grey;
+  overflow: hidden; }
 
 .overlay {
   background: transparent;
