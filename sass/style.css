@@ -186,6 +186,9 @@ a {
   margin-left: 10%;
   width: 60%; }
 
+.favicon {
+  display: none; }
+
 .herohead, .herohome {
   font-family: "Lora", Arial, sans-serif;
   font-size: 24px;
@@ -890,10 +893,25 @@ a {
     padding-left: 400px; }
   .index .deskmap {
     display: block; }
-  .index .white-background {
-    padding-left: 30px; }
   .index .overlay {
     display: none; }
+  .index .yellow-background {
+    display: flex; }
+  .index .mapish {
+    width: 100%; }
+  .index .footer {
+    display: flex; }
+  .index .code {
+    width: 50%; }
+  .index .connect {
+    margin-left: 20%; }
+    .index .connect img {
+      border-radius: 30px;
+      height: 30px;
+      filter: invert(1) grayscale(1);
+      margin-left: 10px; }
+    .index .connect img:hover {
+      filter: invert(0); }
 
   .speaker .hero {
     height: 300px; }
@@ -915,12 +933,6 @@ a {
   .speaker .desknav {
     display: inline-block;
     margin: 3% 5% 3% 8%;
-    color: white; }
-  .speaker .footer {
-    display: flex; }
-  .speaker .code {
-    width: 50%; }
-  .speaker .connect {
-    margin-left: 20%; } }
+    color: white; } }
 
 /*# sourceMappingURL=style.css.map */

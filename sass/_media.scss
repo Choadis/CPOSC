@@ -202,10 +202,34 @@
     display: block;
   }
   .white-background{
-    padding-left: 30px;
+  
   }
   .overlay {
     display: none;
+  }
+  .yellow-background{
+    display: flex;
+  }
+  .mapish {
+    width: 100%;
+  }
+  .footer {
+    display: flex;
+  }
+  .code {
+    width: 50%;
+  }
+  .connect {
+    margin-left: 20%;
+    img {
+      border-radius: 30px;
+      height: 30px;
+      filter:invert(1) grayscale(1);
+      margin-left: 10px;
+    }
+    img:hover {
+      filter:invert(0);
+    }
   }
 }
 .speaker {
@@ -239,14 +263,6 @@
     margin: 3% 5% 3% 8%;
     color: white;
   }
-  .footer {
-    display: flex;
-  }
-  .code {
-    width: 50%;
-  }
-  .connect {
-    margin-left: 20%;
-  }
+
 }
 }
