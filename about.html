@@ -15,6 +15,14 @@
 <body class="about">
   <section class="hero">
     <header>
+      <!--Desktop nav-->
+      <div>
+        <a class="desknav mont14" href="index.html"> central pennsylvania open source conference </a>
+        <a class="desknav" href="about.html" class="link"> About </a>
+        <a class="desknav" href="speaker.html" class="link"> Speakers &amp; Sessions </a>
+        <a class="desknav" href="tickets.html" class="link"> Tickets </a>
+        <a class="desknav" href="sponsor.html" class="link"> Sponsor </a>
+      </div>
       <!--Make Uppercase via CSS-->
       <div>
         <nav class="nav" onClick = "hideIt('ddmenu')">
@@ -29,7 +37,7 @@
             <a href="sponsor.html" class="link"> Sponsor </a>
           </div>
         </nav>
-        <div class="head-space">
+        <div class="head-space main-nav">
           <a href="index.html" class="mont14"> central pennsylvania open source conference </a>
           </div>
           <div class="white-divider">
@@ -71,7 +79,7 @@
     <p class="lora16"> This dialogue serves as an integral component in cementing Central PA as a recognized hub of technological innovation. At CPOSC, speakers, attendees and sponsors are all equally relied upon to fuel the fire of that innovation, whether presenting on a topic, asking a question or representing a useful product or service. </p>
     <p class="lora16"> CPOSC is held in historic Downtown Lancaster, Pennsylvania. </p>
   </div>
-  <section class="gray-background">
+  <section>
     <h1 class="mont24"> 2017 Venue </h1>
     <p class="lora16"> CPOSC 2017 will be held on the ground floor at The Ware Center at Millersville University in Downtown Lancaster, PA! </p>
     <p class="lora16"> Located in the heart of the City’s arts district, The Ware Center at Millersville University Lancaster is the City’s community center dedicated to fostering civic engagement, encouraging collaboration and promoting innovation for the enrichment of the Lancaster region. </p>
@@ -116,7 +124,7 @@
 </div>
   <!--Yellow Background-->
   <section class="yellow-background">
-    <div>
+    <div class='side-loc'>
       <h1 class="mont21"> CONFERENCE LOCATIONS </h1>
       <div>
         <h1 class="lora18"><strong> The Ware Center </strong></h1>
@@ -135,23 +143,28 @@
             <p class="lora16">Lancaster, PA 17602</p>
           </div>
         </div>
-        <div>
+        <section class ="mapish">
+        <div class = "">
         <div class="overlay" onClick="style.pointerEvents='none'"></div>
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1AoyXseHiFR2IvqZ1Tj0DJARE_6I" width="640" height="480" id="map"></iframe>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1AoyXseHiFR2IvqZ1Tj0DJARE_6I" width="640" height="480" id="map">
+        </iframe>
       </div>
+    </section>
         <!--Google Map Goes Here-->
       </section>
-      <footer class="footer">
+      <footer class= "footer">
+        <div class= "code">
         <h1 class="mont18">Code of Conduct</h1>
         <p class="lora15">CPOSC is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found on our About page, under Code of Conduct.</p>
-        <div class="connect">
-          <h1 class="mont18">Connect with CPOSC</h1>
-          <a href = "https://www.facebook.com/CPOSC2008/" target="_blank"><img class="favicon" src="image/facebook.png"></a>
-          <a href = "https://twitter.com/CPOSC?lang=en" target="_blank"><img class="favicon" src="image/twitter.png"></a>
-          <a href = "https://www.linkedin.com/company/15076690/" target="_blank"><img class="favicon" src="image/linkedin.png"></a>
-          <a href = "https://github.com/cposc" target="_blank"><img class="favicon" src="image/github.png"></a>
-          <a href = "https://www.meetup.com/CPOSC_/" target="_blank"><img class="favicon" src="image/meetup.png"></a>
-          <h1 class="mont18 bot">#CPOSC2017</h1>
+      </div>
+      <div class="connect">
+        <h1 class="mont18">Connect with CPOSC</h1>
+        <a href = "https://www.facebook.com/CPOSC2008/" target="_blank"><img class="favicon" src="image/facebook.png"></a>
+        <a href = "https://twitter.com/CPOSC?lang=en" target="_blank"><img class="favicon" src="image/twitter.png"></a>
+        <a href = "https://www.linkedin.com/company/15076690/" target="_blank"><img class="favicon" src="image/linkedin.png"></a>
+        <a href = "https://github.com/cposc" target="_blank"><img class="favicon" src="image/github.png"></a>
+        <a href = "https://www.meetup.com/CPOSC_/" target="_blank"><img class="favicon" src="image/meetup.png"></a>
+        <h1 class="mont18 bot">#CPOSC2017</h1>
         <script src="script.js"></script>
       </footer>
     </body>

@@ -320,8 +320,116 @@
       }
     }
   }
-  .sponsor{
-
+  .tickets{
+    .hero {
+      height: 400px;
+    }
+    .nav {
+      display: none;
+    }
+    .burger {
+      display: none;
+    }
+    .main-nav {
+      display: none;
+    }
+    .desknav {
+      display: inline-block;
+      margin: 3% 1% 4% 5%;
+      color: white;
+    }
+  }
+  .sponsor {
+    .hero {
+      height: 400px;
+    }
+    .nav {
+      display: none;
+    }
+    .burger {
+      display: none;
+    }
+    .nav-contain {
+      display: none;
+    }
+    .desknav {
+      display: inline-block;
+      margin: 3% 1% 4% 5%;
+      color: white;
+    }
+    .yellow-background{
+      display: flex;
+      .side-loc{
+        padding: 20px;
+        width: 60%;
+      }
+      .mont21{
+        line-height: 1;
+        padding: 30px;
+      }
+      .lora18{
+        line-height: 0.9;
+        font-size: 14px;
+        padding: 15px 0 0 30px;
+      }
+      .lora16{
+        line-height: 0;
+        padding: 15px 10px 10px 30px;
+      }
+    }
+  }
+  .about {
+    .hero {
+      height: 400px;
+    }
+    .herohead {
+      line-height: 1.5;
+      font-size: xx-large;
+    }
+    .white-bar {
+      margin: -30px 0px 0px 60px;
+      width: 7%;
+    }
+    .nav {
+      display: none;
+    }
+    .burger {
+      display: none;
+    }
+    .main-nav {
+      display: none;
+    }
+    .desknav {
+      display: inline-block;
+      margin: 3% 1% 4% 5%;
+      color: white;
+    }
+    .yellow-background{
+      display: flex;
+      .side-loc{
+        width: 60%;
+        margin: 0px 0px 0px 20px
+      }
+      .mont21{
+        line-height: 1;
+        padding: 35px;
+      }
+      .lora18{
+        line-height: 0.9;
+        font-size: 14px;
+        padding: 15px 0 0 30px;
+      }
+      .lora16{
+        line-height: 0;
+        padding: 15px 10px 10px 30px;
+      }
+    }
+    .white-background {
+      padding-left: 35%;
+    }
+    .gray-background {
+      padding-left: 35%;
+    }
   }
 }
 .ticket-container{
