@@ -48,6 +48,9 @@
   }
 };
 @media only screen and (min-width: 768px){
+  .favicon{
+    display: inline-flex;
+  }
   .index{
     .hero {
       height: 400px;
@@ -157,10 +160,8 @@
   }
 }
 @media only screen and (min-width: 1000px){
-  .ticket-container{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 20px;
+  .favicon{
+    display: inline-flex;
   }
   .index {
     .hero{
@@ -213,7 +214,7 @@
     .yellow-background{
       display: flex;
       .side-loc{
-        padding: 20px;
+        padding: 30px 20px 20px 40px;
         width: 60%;
       }
       .mont21{
@@ -222,37 +223,39 @@
       .lora18{
         line-height: 0.9;
         font-size: 14px;
-        padding: 5px 0 0 20px;
+        padding: 10px 0 0 20px;
       }
       .lora16{
         line-height: 0;
         padding: 15px 10px 10px 20px;
       }
     }
-    .mapish {
-      width: 100%;
-      margin-bottom: -3px;
-    }
-    .footer {
-      display: flex;
-    }
-    .code {
+    .counter-container {
       width: 50%;
+      margin-left: 25%;
+      height: 170px;
+      .mont18{
+        float: right;
+        margin-top: 12px;
+      }
+      .mont21 {
+        float: right;
+      }
     }
-    .favicon{
+    .counter-block {
+      padding-left: 60px;
+      margin: 10px 10px 0px 20px;
+      width: 15%;
+    }
+    .counter-box {
       display: inline-flex;
+      width: 50%;
+      float: left;
+      margin: 50px -10px 0px -15px;
     }
-    .connect {
-      margin-left: 20%;
-      img {
-        border-radius: 30px;
-        height: 30px;
-        filter:invert(1) grayscale(1);
-        margin-left: 10px;
-      }
-      img:hover {
-        filter:invert(0);
-      }
+    .time-until {
+      width: 40%;
+      float: right;
     }
   }
   .speaker {
@@ -316,36 +319,42 @@
         padding: 15px 10px 10px 30px;
       }
     }
-    .mapish {
-      width: 100%;
-      margin-bottom: -3px;
-    }
-    .footer {
-      display: flex;
-      height: 200px;
-    }
-    .code {
-      width: 50%;
-      padding-top: 20px;
-    }
-    .favicon {
-      display: inline-flex;
-    }
-    .connect {
-      margin-left: 20%;
-      padding-top: 20px;
-      img {
-        border-radius: 30px;
-        height: 30px;
-        filter:invert(1) grayscale(1);
-        margin-left: 10px;
-      }
-      img:hover {
-        filter:invert(0);
-      }
-    }
   }
   .sponsor{
 
+  }
+}
+.ticket-container{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+}
+.desknav:hover{
+  color: $goldenrod;
+  transition-duration: .5s;
+}
+.mapish {
+  width: 100%;
+  margin-bottom: -3px;
+}
+.footer {
+  display: flex;
+  height: 200px;
+}
+.code {
+  width: 50%;
+  padding-top: 20px;
+}
+.connect {
+  margin-left: 20%;
+  padding-top: 20px;
+  img {
+    border-radius: 30px;
+    height: 30px;
+    filter:invert(1) grayscale(1);
+    margin-left: 10px;
+  }
+  img:hover {
+    filter:invert(0);
   }
 }
