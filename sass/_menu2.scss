@@ -8,13 +8,16 @@
   font-weight: bold;
 }
 .ddmenu2{
-  max-width: 78px;
-  margin-left: 32px;
+  background-color: inherit;
+  position: relative;
+  opacity: 1;
+  max-width: 200px;
+  margin: 12px -1px 0 -1px;
   height: auto;
   right: 0;
   text-align: left;
   padding: 10px;
-  z-index: 1;
+  z-index: 2;
   border: 1px solid black;
 }
 .hover{

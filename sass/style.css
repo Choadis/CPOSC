@@ -405,7 +405,8 @@ a {
   text-align: left; }
 .tickets .white-background .mont21 {
   line-height: 1.41;
-  text-align: left; }
+  text-align: left;
+  z-index: 0; }
   .tickets .white-background .mont21 strong {
     font-weight: bold; }
 .tickets .white-background .lora16 {
@@ -730,13 +731,16 @@ a {
   font-weight: bold; }
 
 .ddmenu2 {
-  max-width: 78px;
-  margin-left: 32px;
+  background-color: inherit;
+  position: relative;
+  opacity: 1;
+  max-width: 200px;
+  margin: 12px -1px 0 -1px;
   height: auto;
   right: 0;
   text-align: left;
   padding: 10px;
-  z-index: 1;
+  z-index: 2;
   border: 1px solid black; }
 
 .hover {
