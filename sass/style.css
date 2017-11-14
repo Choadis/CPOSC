@@ -41,6 +41,75 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.herohead, .herohome {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 24px;
+  color: #ffae00;
+  letter-spacing: 1.2;
+  font-weight: bold; }
+
+.herohome {
+  font-size: 32px;
+  letter-spacing: 1.6;
+  margin: 30px 50px; }
+
+.mont24 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 24px;
+  padding: 20px; }
+
+.mont18 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 18px;
+  padding: 20px; }
+
+.mont16 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 16px;
+  padding: 20px; }
+
+.mont21 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 21px;
+  padding: 20px; }
+
+.lora16 {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 16px;
+  padding: 20px; }
+
+.lora21 {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 21px;
+  padding: 20px; }
+
+.lora18 {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 18px;
+  padding: 20px; }
+
+.lora17 {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 17px;
+  padding: 20px; }
+
+.lora15 {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 15px;
+  padding: 20px; }
+
+.mont14 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 13.6px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  color: #f5f5f5; }
+
+.mont13 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 13px;
+  padding: 20px; }
+
 .bar {
   width: 20px;
   height: 3px;
@@ -65,9 +134,6 @@ table {
   z-index: 1;
   text-align: center;
   border: 2px solid black; }
-
-.none {
-  display: none; }
 
 .link {
   display: block;
@@ -188,75 +254,6 @@ a {
 .favicon {
   display: none; }
 
-.herohead, .herohome {
-  font-family: "Lora", Arial, sans-serif;
-  font-size: 24px;
-  color: #ffae00;
-  letter-spacing: 1.2;
-  font-weight: bold; }
-
-.herohome {
-  font-size: 32px;
-  letter-spacing: 1.6;
-  margin: 30px 50px; }
-
-.mont24 {
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 24px;
-  padding: 20px; }
-
-.mont18 {
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 18px;
-  padding: 20px; }
-
-.mont16 {
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 16px;
-  padding: 20px; }
-
-.mont21 {
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 21px;
-  padding: 20px; }
-
-.lora16 {
-  font-family: "Lora", Arial, sans-serif;
-  font-size: 16px;
-  padding: 20px; }
-
-.lora21 {
-  font-family: "Lora", Arial, sans-serif;
-  font-size: 21px;
-  padding: 20px; }
-
-.lora18 {
-  font-family: "Lora", Arial, sans-serif;
-  font-size: 18px;
-  padding: 20px; }
-
-.lora17 {
-  font-family: "Lora", Arial, sans-serif;
-  font-size: 17px;
-  padding: 20px; }
-
-.lora15 {
-  font-family: "Lora", Arial, sans-serif;
-  font-size: 15px;
-  padding: 20px; }
-
-.mont14 {
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 13.6px;
-  font-weight: bolder;
-  text-transform: capitalize;
-  color: #f5f5f5; }
-
-.mont13 {
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 13px;
-  padding: 20px; }
-
 .index .counter-container .mont18 {
   letter-spacing: .9px;
   text-align: center;
@@ -335,67 +332,96 @@ a {
   margin: 5%; }
 .sponsor .white-bar {
   margin-top: -4%; }
-.sponsor .ticket-container .mont24 {
-  letter-spacing: 1.2px;
-  text-align: left;
-  color: white;
-  font-weight: bold; }
-.sponsor .ticket-container .white-background .mont18 {
-  letter-spacing: .9px;
-  text-align: center;
-  color: white;
-  font-weight: bold;
-  padding: 15px; }
-.sponsor .ticket-container .mont21 {
-  line-height: 1.41;
-  text-align: left; }
-.sponsor .ticket-container .lora16 {
-  line-height: 1.41;
-  letter-spacing: .8px;
-  text-align: left; }
-  .sponsor .ticket-container .lora16 strong {
+.sponsor .ticket-container {
+  margin-top: 50px; }
+  .sponsor .ticket-container .mont24 {
+    letter-spacing: 1.2px;
+    text-align: left;
+    color: white;
     font-weight: bold; }
-.sponsor .gray-background .mont24 {
+.sponsor .hiddenContent {
+  margin: 5% 0 5% 0;
+  max-width: 250px;
+  height: auto;
+  display: none; }
+  .sponsor .hiddenContent .mont16 {
+    display: none;
+    color: black;
+    display: block;
+    width: 200px;
+    line-height: 1.71;
+    text-align: left;
+    margin-right: 0;
+    padding: 0;
+    padding-left: 50px;
+    padding-bottom: 10px; }
+  .sponsor .hiddenContent strong {
+    font-weight: bold; }
+  .sponsor .hiddenContent .gold {
+    color: #ffae00;
+    padding-top: 20px; }
+.sponsor .white-background {
+  margin-top: -100px; }
+  .sponsor .white-background .mont18 {
+    letter-spacing: .9px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 15px; }
+.sponsor .mont21 {
+  line-height: 1.41;
+  text-align: left; }
+.sponsor .lora16 {
+  line-height: 1.41;
+  letter-spacing: .8px;
+  text-align: left; }
+  .sponsor .lora16 strong {
+    font-weight: bold; }
+
+.gray-background .mont24 {
   line-height: 1.41;
   letter-spacing: 1.2px;
   text-align: left;
   font-weight: bold; }
-.sponsor .gray-background .lato18 {
+.gray-background .lato18 {
   line-height: 1.41;
   letter-spacing: .9px;
   text-align: left; }
-.sponsor .two .mont21 {
+
+.two .mont21 {
   line-height: 1.41;
   text-align: left;
   font-weight: bold; }
-.sponsor .two .lora16 {
+.two .lora16 {
   line-height: 1.41;
   letter-spacing: .8px;
   text-align: left; }
-.sponsor .two .main-button .mont16 {
+.two .main-button .mont16 {
   line-height: 1.71;
   letter-spacing: .8px;
   text-align: center;
   color: white; }
-.sponsor .yellow-background .mont21 {
+
+.yellow-background .mont21 {
   line-height: 1.43;
   text-align: left;
   font-weight: bold; }
-.sponsor .yellow-background .lora18 {
+.yellow-background .lora18 {
   line-height: 1.41;
   text-align: left;
   font-weight: bold; }
-.sponsor .yellow-background .lora16 {
+.yellow-background .lora16 {
   line-height: 1.41;
   text-align: left; }
-.sponsor .footer {
+
+.footer {
   color: white; }
-  .sponsor .footer .lora15 {
+  .footer .lora15 {
     line-height: 1.41;
     text-align: left; }
-  .sponsor .footer .mont15 {
+  .footer .mont15 {
     font-weight: 500; }
-  .sponsor .footer .bot {
+  .footer .bot {
     letter-spacing: 1.8px; }
 
 .tickets .white-background .lora18 {
@@ -664,27 +690,27 @@ a {
 
 .sponsor .desktop {
   display: none; }
-.sponsor .table {
-  width: 90%;
-  margin: 3% auto;
-  border: 1px black; }
-  .sponsor .table .lora16 {
-    letter-spacing: .8px; }
-  .sponsor .table .mont24 {
-    letter-spacing: .8px; }
-.sponsor td {
-  width: 16%;
-  line-height: 1.31;
-  padding: 1%; }
-.sponsor th {
-  line-height: 1.52;
-  text-align: left; }
-.sponsor .mont16 {
-  line-height: 1.71;
-  letter-spacing: .8px;
-  text-align: center;
-  font-weight: bold;
-  color: white; }
+  .sponsor .desktop .table {
+    width: 90%;
+    margin: 3% auto;
+    border: 1px black; }
+    .sponsor .desktop .table .lora16 {
+      letter-spacing: .8px; }
+    .sponsor .desktop .table .mont24 {
+      letter-spacing: .8px; }
+  .sponsor .desktop td {
+    width: 16%;
+    line-height: 1.31;
+    padding: 1%; }
+  .sponsor .desktop th {
+    line-height: 1.52;
+    text-align: left; }
+  .sponsor .desktop .mont16 {
+    line-height: 1.71;
+    letter-spacing: .8px;
+    text-align: center;
+    font-weight: bold;
+    color: white; }
 .sponsor .deets {
   width: 90%;
   margin: 0 10px; }
@@ -728,6 +754,9 @@ a {
   text-align: center;
   margin: 0 0 0 10%;
   font-weight: bold; }
+
+.none {
+  display: none; }
 
 .ddmenu2 {
   max-width: 78px;
@@ -825,13 +854,15 @@ a {
 
   .sponsor .nav {
     margin: 20px; }
+  .sponsor .hiddenContent {
+    display: inline; }
   .sponsor .herohome {
     font-size: 25px; }
   .sponsor .white-bar {
     margin-top: 0;
     width: 10%; }
   .sponsor .ticket-container {
-    margin: 40px 40px 210px 20px; }
+    margin: 150px 40px 210px 20px; }
   .sponsor .main-button {
     margin: -50px 90px 0 100px;
     padding: 10px;
