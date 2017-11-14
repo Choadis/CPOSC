@@ -1006,7 +1006,86 @@ a {
       padding: 15px 0 0 30px; }
     .speaker .yellow-background .lora16 {
       line-height: 0;
-      padding: 15px 10px 10px 30px; } }
+      padding: 15px 10px 10px 30px; }
+
+  .tickets .hero {
+    height: 400px; }
+  .tickets .nav {
+    display: none; }
+  .tickets .burger {
+    display: none; }
+  .tickets .main-nav {
+    display: none; }
+  .tickets .desknav {
+    display: inline-block;
+    margin: 3% 1% 4% 5%;
+    color: white; }
+
+  .sponsor .hero {
+    height: 400px; }
+  .sponsor .nav {
+    display: none; }
+  .sponsor .burger {
+    display: none; }
+  .sponsor .nav-contain {
+    display: none; }
+  .sponsor .desknav {
+    display: inline-block;
+    margin: 3% 1% 4% 5%;
+    color: white; }
+  .sponsor .yellow-background {
+    display: flex; }
+    .sponsor .yellow-background .side-loc {
+      padding: 20px;
+      width: 60%; }
+    .sponsor .yellow-background .mont21 {
+      line-height: 1;
+      padding: 30px; }
+    .sponsor .yellow-background .lora18 {
+      line-height: 0.9;
+      font-size: 14px;
+      padding: 15px 0 0 30px; }
+    .sponsor .yellow-background .lora16 {
+      line-height: 0;
+      padding: 15px 10px 10px 30px; }
+
+  .about .hero {
+    height: 400px; }
+  .about .herohead, .about .herohome {
+    line-height: 1.5;
+    font-size: xx-large; }
+  .about .white-bar {
+    margin: -30px 0px 0px 60px;
+    width: 7%; }
+  .about .nav {
+    display: none; }
+  .about .burger {
+    display: none; }
+  .about .main-nav {
+    display: none; }
+  .about .desknav {
+    display: inline-block;
+    margin: 3% 1% 4% 5%;
+    color: white; }
+  .about .yellow-background {
+    display: flex; }
+    .about .yellow-background .side-loc {
+      width: 60%;
+      margin: 0px 0px 0px 20px; }
+    .about .yellow-background .mont21 {
+      line-height: 1;
+      padding: 35px; }
+    .about .yellow-background .lora18 {
+      line-height: 0.9;
+      font-size: 14px;
+      padding: 15px 0 0 30px; }
+    .about .yellow-background .lora16 {
+      line-height: 0;
+      padding: 15px 10px 10px 30px; }
+  .about .white-background {
+    padding-left: 35%; }
+  .about .gray-background {
+    padding-left: 35%; } }
 .ticket-container {
   position: -webkit-sticky;
   position: sticky;
