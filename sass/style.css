@@ -159,8 +159,7 @@ a {
   background-color: #ffae00;
   margin: 3%;
   height: auto;
-  margin-top: -6%;
-  padding: 10%; }
+  margin-top: -6%; }
 
 .ticket-container {
   width: 300px;
@@ -784,6 +783,9 @@ a {
   .about form .main-button {
     margin-left: 10%; } }
 @media only screen and (min-width: 768px) {
+  .favicon {
+    display: inline-flex; }
+
   .index .hero {
     height: 400px; }
   .index .herohome {
@@ -859,10 +861,8 @@ a {
     margin: 40px 40px 210px 20px;
     padding-bottom: 30px; } }
 @media only screen and (min-width: 1000px) {
-  .ticket-container {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 20px; }
+  .favicon {
+    display: inline-flex; }
 
   .index .hero {
     height: 500px; }
@@ -899,35 +899,38 @@ a {
   .index .yellow-background {
     display: flex; }
     .index .yellow-background .side-loc {
-      padding: 20px;
+      padding: 30px 20px 20px 40px;
       width: 60%; }
     .index .yellow-background .mont21 {
       line-height: 1; }
     .index .yellow-background .lora18 {
       line-height: 0.9;
       font-size: 14px;
-      padding: 5px 0 0 20px; }
+      padding: 10px 0 0 20px; }
     .index .yellow-background .lora16 {
       line-height: 0;
       padding: 15px 10px 10px 20px; }
-  .index .mapish {
-    width: 100%;
-    margin-bottom: -3px; }
-  .index .footer {
-    display: flex; }
-  .index .code {
-    width: 50%; }
-  .index .favicon {
-    display: inline-flex; }
-  .index .connect {
-    margin-left: 20%; }
-    .index .connect img {
-      border-radius: 30px;
-      height: 30px;
-      filter: invert(1) grayscale(1);
-      margin-left: 10px; }
-    .index .connect img:hover {
-      filter: invert(0); }
+  .index .counter-container {
+    width: 50%;
+    margin-left: 25%;
+    height: 170px; }
+    .index .counter-container .mont18 {
+      float: right;
+      margin-top: 12px; }
+    .index .counter-container .mont21 {
+      float: right; }
+  .index .counter-block {
+    padding-left: 60px;
+    margin: 10px 10px 0px 20px;
+    width: 15%; }
+  .index .counter-box {
+    display: inline-flex;
+    width: 50%;
+    float: left;
+    margin: 50px -10px 0px -15px; }
+  .index .time-until {
+    width: 40%;
+    float: right; }
 
   .speaker .hero {
     height: 300px; }
@@ -971,27 +974,37 @@ a {
       padding: 15px 0 0 30px; }
     .speaker .yellow-background .lora16 {
       line-height: 0;
-      padding: 15px 10px 10px 30px; }
-  .speaker .mapish {
-    width: 100%;
-    margin-bottom: -3px; }
-  .speaker .footer {
-    display: flex;
-    height: 200px; }
-  .speaker .code {
-    width: 50%;
-    padding-top: 20px; }
-  .speaker .favicon {
-    display: inline-flex; }
-  .speaker .connect {
-    margin-left: 20%;
-    padding-top: 20px; }
-    .speaker .connect img {
-      border-radius: 30px;
-      height: 30px;
-      filter: invert(1) grayscale(1);
-      margin-left: 10px; }
-    .speaker .connect img:hover {
-      filter: invert(0); } }
+      padding: 15px 10px 10px 30px; } }
+.ticket-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px; }
+
+.desknav:hover {
+  color: #d08e01;
+  transition-duration: .5s; }
+
+.mapish {
+  width: 100%;
+  margin-bottom: -3px; }
+
+.footer {
+  display: flex;
+  height: 200px; }
+
+.code {
+  width: 50%;
+  padding-top: 20px; }
+
+.connect {
+  margin-left: 20%;
+  padding-top: 20px; }
+  .connect img {
+    border-radius: 30px;
+    height: 30px;
+    filter: invert(1) grayscale(1);
+    margin-left: 10px; }
+  .connect img:hover {
+    filter: invert(0); }
 
 /*# sourceMappingURL=style.css.map */
