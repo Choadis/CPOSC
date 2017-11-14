@@ -6,13 +6,41 @@
     margin-top: -4%;
   }
   .ticket-container{
+    margin-top: 50px;
     .mont24{
       letter-spacing: 1.2px;
       text-align: left;
       color: white;
       font-weight: bold;
     }
+  }
+  .hiddenContent{
+    margin: 5% 0 5% 0;
+    max-width: 250px;
+    height: auto;
+    display: none;
+  .mont16{
+    display: none;
+    color: black;
+    display: block;
+    width: 200px;
+    line-height: $threeSix;
+    text-align: left;
+    margin-right: 0;
+    padding: 0;
+    padding-left: 50px;
+    padding-bottom: 10px;
+  }
+  strong{
+    font-weight: bold;
+  }
+  .gold{
+    color: $yellow;
+    padding-top: 20px;
+  }
+}
   .white-background{
+    margin-top: -100px;
       .mont18{
         letter-spacing: .9px;
         text-align: center;
@@ -20,7 +48,7 @@
         font-weight: bold;
         padding: 15px;
       }
-    }
+  }
     .mont21{
       line-height: $twoFour;
       text-align: left;
@@ -96,4 +124,3 @@
     }
     color: white;
   }
-}
