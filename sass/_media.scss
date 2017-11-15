@@ -121,9 +121,11 @@
       height: 200px;
     }
     .sponsor-insides{
+      position: absolute;
       width: 55%;
       float: right;
-      margin-top: -320px;
+      top: 320px;
+      left: 340px;
     }
     .herohome{
       font-size: 25px;
@@ -371,6 +373,23 @@
     }
     .nav-contain {
       display: none;
+    }
+    .white-background{
+      height: 450px;
+    }
+    .sponsor-insides{
+      top: 60%;
+      width: auto;
+    }
+    .sponsor-boxes{
+      width: 70%;
+      float: right;
+    }
+    .two{
+      display: none;
+    }
+    .desktop{
+      display: block;
     }
     .ticket-container{
       position: -webkit-sticky;

@@ -333,8 +333,7 @@ a {
 .sponsor .white-bar {
   margin-top: -4%; }
 .sponsor .ticket-container {
-  margin-top: 2%;
-  margin-bottom: 30%; }
+  margin-top: 2%; }
   .sponsor .ticket-container .mont24 {
     letter-spacing: 1.2px;
     text-align: left;
@@ -715,8 +714,8 @@ a {
     font-weight: bold;
     color: white; }
 .sponsor .deets {
-  width: 90%;
-  margin: 0 10px; }
+  width: 60%;
+  margin: 0 10px 0 30%; }
   .sponsor .deets h2 {
     font-weight: bold; }
   .sponsor .deets .mont24 {
@@ -868,9 +867,11 @@ a {
   .sponsor .two {
     height: 200px; }
   .sponsor .sponsor-insides {
+    position: absolute;
     width: 55%;
     float: right;
-    margin-top: -320px; }
+    top: 320px;
+    left: 340px; }
   .sponsor .herohome {
     font-size: 25px; }
   .sponsor .white-bar {
@@ -1044,6 +1045,18 @@ a {
     display: none; }
   .sponsor .nav-contain {
     display: none; }
+  .sponsor .white-background {
+    height: 450px; }
+  .sponsor .sponsor-insides {
+    top: 60%;
+    width: auto; }
+  .sponsor .sponsor-boxes {
+    width: 70%;
+    float: right; }
+  .sponsor .two {
+    display: none; }
+  .sponsor .desktop {
+    display: block; }
   .sponsor .ticket-container {
     position: -webkit-sticky;
     position: sticky;
