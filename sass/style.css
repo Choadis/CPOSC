@@ -333,7 +333,8 @@ a {
 .sponsor .white-bar {
   margin-top: -4%; }
 .sponsor .ticket-container {
-  margin-top: 50px; }
+  margin-top: 2%;
+  margin-bottom: 30%; }
   .sponsor .ticket-container .mont24 {
     letter-spacing: 1.2px;
     text-align: left;
@@ -378,15 +379,17 @@ a {
   .sponsor .lora16 strong {
     font-weight: bold; }
 
-.gray-background .mont24 {
-  line-height: 1.41;
-  letter-spacing: 1.2px;
-  text-align: left;
-  font-weight: bold; }
-.gray-background .lato18 {
-  line-height: 1.41;
-  letter-spacing: .9px;
-  text-align: left; }
+.gray-background {
+  height: 900px; }
+  .gray-background .mont24 {
+    line-height: 1.41;
+    letter-spacing: 1.2px;
+    text-align: left;
+    font-weight: bold; }
+  .gray-background .lato18 {
+    line-height: 1.41;
+    letter-spacing: .9px;
+    text-align: left; }
 
 .two .mont21 {
   line-height: 1.41;
@@ -802,6 +805,8 @@ a {
 
   .sponsor .ticket-container {
     margin-left: 20%; }
+  .sponsor .gray-background {
+    height: 750px; }
   .sponsor .two .main-button {
     margin-left: 15%; }
 
@@ -856,13 +861,23 @@ a {
     margin: 20px; }
   .sponsor .hiddenContent {
     display: inline; }
+  .sponsor .gray-background {
+    height: 600px; }
+  .sponsor .white-background {
+    height: 500px; }
+  .sponsor .two {
+    height: 200px; }
+  .sponsor .sponsor-insides {
+    width: 55%;
+    float: right;
+    margin-top: -400px; }
   .sponsor .herohome {
     font-size: 25px; }
   .sponsor .white-bar {
     margin-top: 0;
     width: 10%; }
   .sponsor .ticket-container {
-    margin: 150px 40px 210px 20px; }
+    margin: 150px 40px 0 20px; }
   .sponsor .main-button {
     margin: -50px 90px 0 100px;
     padding: 10px;
@@ -1029,6 +1044,10 @@ a {
     display: none; }
   .sponsor .nav-contain {
     display: none; }
+  .sponsor .ticket-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px; }
   .sponsor .desknav {
     display: inline-block;
     margin: 3% 1% 4% 5%;
@@ -1067,6 +1086,10 @@ a {
     display: inline-block;
     margin: 3% 1% 4% 5%;
     color: white; }
+  .about .ticket-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px; }
   .about .yellow-background {
     display: flex; }
     .about .yellow-background .side-loc {
@@ -1085,37 +1108,33 @@ a {
   .about .white-background {
     padding-left: 35%; }
   .about .gray-background {
-    padding-left: 35%; } }
-.ticket-container {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 20px; }
+    padding-left: 35%; }
 
-.desknav:hover {
-  color: #d08e01;
-  transition-duration: .5s; }
+  .desknav:hover {
+    color: #d08e01;
+    transition-duration: .5s; }
 
-.mapish {
-  width: 100%;
-  margin-bottom: -3px; }
+  .mapish {
+    width: 100%;
+    margin-bottom: -3px; }
 
-.footer {
-  display: flex;
-  height: 200px; }
+  .footer {
+    display: flex;
+    height: 200px; }
 
-.code {
-  width: 50%;
-  padding-top: 20px; }
+  .code {
+    width: 50%;
+    padding-top: 20px; }
 
-.connect {
-  margin-left: 20%;
-  padding-top: 20px; }
-  .connect img {
-    border-radius: 30px;
-    height: 30px;
-    filter: invert(1) grayscale(1);
-    margin-left: 10px; }
-  .connect img:hover {
-    filter: invert(0); }
+  .connect {
+    margin-left: 20%;
+    padding-top: 20px; }
+    .connect img {
+      border-radius: 30px;
+      height: 30px;
+      filter: invert(1) grayscale(1);
+      margin-left: 10px; }
+    .connect img:hover {
+      filter: invert(0); } }
 
 /*# sourceMappingURL=style.css.map */
