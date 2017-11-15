@@ -38,6 +38,11 @@
     .main-button{
       margin-left: 18%;
     }
+    .two{
+    .totalBox{
+      margin: -75px 0 10% 20%;
+    }
+  }
   }
   .about{
     .ticket-container{
@@ -52,7 +57,7 @@
 };
 @media only screen and (min-width: 768px){
   .favicon{
-    display: inline-flex;
+    display: none;
   }
   .index{
     .hero {
@@ -154,6 +159,17 @@
     .nav {
       margin: 20px;
     }
+    .divider-gold{
+      height: 2px;
+      width: 90%;
+      margin: 5% auto;
+      background-color: $yellow;
+    }
+    .main-button{
+      height: 60px;
+      width: 170px;
+      margin-left: 5%;
+    }
     .herohead{
       font-size: 25px;
     }
@@ -186,6 +202,10 @@
     display: inline-flex;
   }
   .index {
+    .ticket-container{
+      position: sticky;
+      top: 20px;
+    }
     .hero{
       height: 500px;
     }
@@ -252,6 +272,7 @@
         padding: 15px 10px 10px 20px;
       }
     }
+  }
     .counter-container {
       width: 50%;
       margin-left: 25%;
@@ -279,10 +300,14 @@
       width: 40%;
       float: right;
     }
-  }
   .speaker {
     .hero{
-      height: 300px;
+      height: 250px
+    }
+    .ticket-container{
+      position: -webkit-sticky;
+      position: sticky;
+      top: 20px;
     }
     .herohome {
       line-height: 70px;
@@ -344,10 +369,13 @@
   }
   .tickets{
     .hero {
-      height: 400px;
+      height: 350px;
     }
     .nav {
       display: none;
+    }
+    .white-divider{
+      margin-top: 0;
     }
     .burger {
       display: none;
@@ -360,16 +388,33 @@
       margin: 3% 1% 4% 5%;
       color: white;
     }
+    .ticket-div{
+      width: 60%;
+      margin-bottom: 50px;
+      display: inline-block;
+    }
+    .ticket-menu-box{
+      margin: 0 0 0 70%;
+    }
+    .ddmenu2{
+      margin: 0 0 0 70%;
+    }
   }
   .sponsor {
     .hero {
       height: 400px;
+    }
+    .herohead{
+      margin-bottom: 0;
     }
     .nav {
       display: none;
     }
     .burger {
       display: none;
+    }
+    .white-bar{
+      margin-top: 30px;
     }
     .nav-contain {
       display: none;
@@ -490,7 +535,7 @@
 }
 .footer {
   display: flex;
-  height: 200px;
+  height: 100%;
 }
 .code {
   width: 50%;
