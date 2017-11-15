@@ -404,7 +404,7 @@
     }
     .desknav {
       display: inline-block;
-      margin: 3% 1% 4% 5%;
+      margin: 7% 1% 0 5%;
       color: white;
     }
     .yellow-background{
@@ -432,6 +432,18 @@
     }
     .gray-background {
       padding-left: 35%;
+    }
+    .main-button {
+      padding: 2%;
+      margin-left: 5%;
+      width: 10%;
+    }
+    .two {
+      .mont18 {
+        line-height: 0.3;
+        letter-spacing: 0;
+        font-size: 15px;
+      }
     }
   }
 }
