@@ -1058,7 +1058,7 @@ a {
     display: none; }
   .tickets .desknav {
     display: inline-block;
-    margin: 5% 1% 0 6%;
+    margin: 5% 1% 2% 6%;
     color: white; }
   .tickets .white-background {
     margin: 4% 0 0 5%; }
@@ -1087,140 +1087,131 @@ a {
   .tickets .code {
     width: auto;
     padding-top: 10%; }
-  .tickets .ticket-div {
-    width: 60%;
-    margin-bottom: 50px;
-    display: inline-block; }
-  .tickets .ticket-menu-box {
-    margin: 0 0 0 70%; }
-  .tickets .ddmenu2 {
-    margin: 0 0 0 70%; }
-  .sponsor .hero {
+    .tickets .code .ticket-div {
+      width: 60%;
+      margin-bottom: 50px;
+      display: inline-block; }
+    .tickets .code .ticket-menu-box {
+      margin: 0 0 0 70%; }
+    .tickets .code .ddmenu2 {
+      margin: 0 0 0 70%; }
+  .tickets .sponsor .hero {
     height: 400px; }
-  .sponsor .herohead, .sponsor .herohome {
+  .tickets .sponsor .herohead, .tickets .sponsor .herohome {
     margin-bottom: 0; }
-  .sponsor .nav {
+  .tickets .sponsor .nav {
     display: none; }
-  .sponsor .burger {
+  .tickets .sponsor .burger {
     display: none; }
-  .sponsor .white-bar {
+  .tickets .sponsor .white-bar {
     margin-top: 30px; }
-  .sponsor .nav-contain {
+  .tickets .sponsor .nav-contain {
     display: none; }
-  .sponsor .white-background {
+  .tickets .sponsor .white-background {
     height: 450px; }
-  .sponsor .sponsor-insides {
+  .tickets .sponsor .sponsor-insides {
     top: 60%;
     width: auto; }
-  .sponsor .sponsor-boxes {
+  .tickets .sponsor .sponsor-boxes {
     width: 70%;
     float: right; }
-  .sponsor .two {
+  .tickets .sponsor .two {
     display: none; }
-  .sponsor .desktop {
+  .tickets .sponsor .desktop {
     display: block; }
-  .sponsor .ticket-container {
+  .tickets .sponsor .ticket-container {
     position: -webkit-sticky;
     position: sticky;
     top: 20px; }
-  .sponsor .desknav {
+  .tickets .sponsor .desknav {
     display: inline-block;
     margin: 3% 1% 4% 5%;
     color: white; }
-  .sponsor .yellow-background {
+  .tickets .sponsor .yellow-background {
     display: flex; }
-    .sponsor .yellow-background .side-loc {
+    .tickets .sponsor .yellow-background .side-loc {
       padding: 20px;
       width: 60%; }
-    .sponsor .yellow-background .mont21 {
+    .tickets .sponsor .yellow-background .mont21 {
       line-height: 1;
       padding: 30px; }
-    .sponsor .yellow-background .lora18 {
+    .tickets .sponsor .yellow-background .lora18 {
       line-height: 0.9;
       font-size: 14px;
       padding: 15px 0 0 30px; }
-    .sponsor .yellow-background .lora16 {
+    .tickets .sponsor .yellow-background .lora16 {
       line-height: 0;
       padding: 15px 10px 10px 30px; }
-
-  .about .hero {
+  .tickets .about .hero {
     height: 400px; }
-  .about .herohead, .about .herohome {
+  .tickets .about .herohead, .tickets .about .herohome {
     line-height: 1.5;
     font-size: xx-large; }
-  .about .white-bar {
+  .tickets .about .white-bar {
     margin: -30px 0px 0px 60px;
     width: 7%; }
-  .about .nav {
+  .tickets .about .nav {
     display: none; }
-  .about .burger {
+  .tickets .about .burger {
     display: none; }
-  .about .main-nav {
+  .tickets .about .main-nav {
     display: none; }
-  .about .desknav {
+  .tickets .about .desknav {
     display: inline-block;
     margin: 7% 1% 0 5%;
     color: white; }
-  .about .ticket-container {
+  .tickets .about .ticket-container {
     position: -webkit-sticky;
     position: sticky;
     top: 20px; }
-  .about .yellow-background {
+  .tickets .about .yellow-background {
     display: flex; }
-    .about .yellow-background .side-loc {
+    .tickets .about .yellow-background .side-loc {
       width: 60%;
       margin: 0px 0px 0px 20px; }
-    .about .yellow-background .mont21 {
+    .tickets .about .yellow-background .mont21 {
       line-height: 1;
       padding: 35px; }
-    .about .yellow-background .lora18 {
+    .tickets .about .yellow-background .lora18 {
       line-height: 0.9;
       font-size: 14px;
       padding: 15px 0 0 30px; }
-    .about .yellow-background .lora16 {
+    .tickets .about .yellow-background .lora16 {
       line-height: 0;
       padding: 15px 10px 10px 30px; }
-  .about .white-background {
+  .tickets .about .white-background {
     padding-left: 35%; }
-  .about .gray-background {
+  .tickets .about .gray-background {
     padding-left: 35%; }
-  .about .main-button {
+  .tickets .about .main-button {
     padding: 2%;
     margin-left: 5%;
     width: 10%; }
-  .about .two .mont18 {
+  .tickets .about .two .mont18 {
     line-height: 0.3;
     letter-spacing: 0;
-    font-size: 15px; } }
-.ticket-container {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 20px; }
-  .desknav:hover {
+    font-size: 15px; }
+  .tickets .desknav:hover {
     color: #d08e01;
     transition-duration: .5s; }
-
-  .mapish {
+  .tickets .mapish {
     width: 100%;
     margin-bottom: -3px; }
-
-  .footer {
+  .tickets .footer {
     display: flex;
     height: 100%; }
-
-  .code {
+  .tickets .code {
     width: 50%;
     padding-top: 20px; }
-
-  .connect {
+  .tickets .connect {
     margin-left: 20%;
     padding-top: 20px; }
-    .connect img {
+    .tickets .connect img {
       border-radius: 30px;
       height: 30px;
       filter: invert(1) grayscale(1);
       margin-left: 10px; }
-    .connect img:hover {
+    .tickets .connect img:hover {
       filter: invert(0); } }
 
 /*# sourceMappingURL=style.css.map */
