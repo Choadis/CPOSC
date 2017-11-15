@@ -69,6 +69,16 @@
     .counter-box{
       margin-left: 7%;
     }
+    .counter-block{
+      margin-top: 65px;
+    }
+    .time-until{
+      width: 40%;
+      margin-left: 50%;
+      display: inline-block;
+      position: relative;
+      top: -40px;
+    }
     .herohome {
       font-size: 40px;
     }
@@ -211,6 +221,20 @@
     .ticket-container{
       position: sticky;
       top: 20px;
+    }
+    .counter-container{
+      margin-left: 10%;
+      width: 80%;
+    }
+    .counter-block{
+      margin: 0 -5px 0px 20px;
+    }
+    .time-until{
+      width: 40%;
+      margin-right: 10%;
+      display: inline-block;
+      position: relative;
+      top: -110px;
     }
     .hero{
       height: 500px;
@@ -607,5 +631,6 @@
   img:hover {
     filter:invert(0);
   }
+}
 }
 }
