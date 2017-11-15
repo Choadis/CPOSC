@@ -652,13 +652,15 @@ a {
 .counter-block {
   height: 80%;
   width: 25%;
+  max-width: 50px;
   background-color: white;
   display: inline-block; }
 
 .counter-box {
   height: 70px;
   width: 99%;
-  margin-left: 5%; }
+  margin-left: 23%;
+  padding-top: 25px; }
 
 #map {
   width: 100%;
@@ -787,6 +789,8 @@ a {
     margin-top: -14px; }
   .index .ticket-container {
     margin-left: 20%; }
+  .index .counter-box {
+    margin-left: 30%; }
 
   .speaker body {
     padding: 5px; }
@@ -818,6 +822,8 @@ a {
 
   .index .hero {
     height: 400px; }
+  .index .counter-box {
+    margin-left: 7%; }
   .index .herohome {
     font-size: 40px; }
   .index .white-bar {
