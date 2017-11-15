@@ -6,7 +6,7 @@
     margin-top: -4%;
   }
   .ticket-container{
-    margin-top: 50px;
+    margin-top: 2%;
     .mont24{
       letter-spacing: 1.2px;
       text-align: left;
@@ -61,8 +61,8 @@
         font-weight: bold;
       }
     }
-  }
   .gray-background{
+    height: 900px;
     .mont24{
       line-height: $twoFour;
       letter-spacing: 1.2px;
@@ -124,3 +124,4 @@
     }
     color: white;
   }
+}
