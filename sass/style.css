@@ -1104,139 +1104,149 @@ a {
     .tickets .yellow-background .lora16 {
       line-height: 0;
       padding: 15px 10px 10px 30px; }
-  .tickets .footer {
+
+  .footer {
     height: 250px; }
-  .tickets .connect {
+
+  .connect {
     width: 50%;
     padding-top: 5%; }
-  .tickets .code {
+
+  .code {
     width: auto;
     padding-top: 10%; }
-    .tickets .code .ticket-div {
+    .code .ticket-div {
       width: 60%;
       margin-bottom: 50px;
       display: inline-block; }
-    .tickets .code .ticket-menu-box {
+    .code .ticket-menu-box {
       margin: 0 0 0 70%; }
-    .tickets .code .ddmenu2 {
+    .code .ddmenu2 {
       margin: 0 0 0 70%; }
-  .tickets .sponsor .hero {
+
+  .sponsor .hero {
     height: 400px; }
-  .tickets .sponsor .herohead, .tickets .sponsor .herohome {
+  .sponsor .herohead, .sponsor .herohome {
     margin-bottom: 0; }
-  .tickets .sponsor .nav {
+  .sponsor .nav {
     display: none; }
-  .tickets .sponsor .burger {
+  .sponsor .burger {
     display: none; }
-  .tickets .sponsor .white-bar {
+  .sponsor .white-bar {
     margin-top: 30px; }
-  .tickets .sponsor .nav-contain {
+  .sponsor .nav-contain {
     display: none; }
-  .tickets .sponsor .white-background {
+  .sponsor .white-background {
     height: 450px; }
-  .tickets .sponsor .sponsor-insides {
+  .sponsor .sponsor-insides {
     top: 60%;
     width: auto; }
-  .tickets .sponsor .sponsor-boxes {
+  .sponsor .sponsor-boxes {
     width: 70%;
     float: right; }
-  .tickets .sponsor .two {
+  .sponsor .two {
     display: none; }
-  .tickets .sponsor .desktop {
+  .sponsor .desktop {
     display: block; }
-  .tickets .sponsor .ticket-container {
+  .sponsor .ticket-container {
     position: -webkit-sticky;
     position: sticky;
     top: 20px; }
-  .tickets .sponsor .desknav {
+  .sponsor .desknav {
     display: inline-block;
     margin: 3% 1% 4% 5%;
     color: white; }
-  .tickets .sponsor .yellow-background {
+  .sponsor .yellow-background {
     display: flex; }
-    .tickets .sponsor .yellow-background .side-loc {
+    .sponsor .yellow-background .side-loc {
       padding: 20px;
       width: 60%; }
-    .tickets .sponsor .yellow-background .mont21 {
+    .sponsor .yellow-background .mont21 {
       line-height: 1;
       padding: 30px; }
-    .tickets .sponsor .yellow-background .lora18 {
+    .sponsor .yellow-background .lora18 {
       line-height: 0.9;
       font-size: 14px;
       padding: 15px 0 0 30px; }
-    .tickets .sponsor .yellow-background .lora16 {
+    .sponsor .yellow-background .lora16 {
       line-height: 0;
       padding: 15px 10px 10px 30px; }
-  .tickets .about .hero {
+
+  .about .hero {
     height: 400px; }
-  .tickets .about .herohead, .tickets .about .herohome {
+  .about .herohead, .about .herohome {
     line-height: 1.5;
     font-size: xx-large; }
-  .tickets .about .white-bar {
+  .about .white-bar {
     margin: -30px 0px 0px 60px;
     width: 7%; }
-  .tickets .about .nav {
+  .about .nav {
     display: none; }
-  .tickets .about .burger {
+  .about .burger {
     display: none; }
-  .tickets .about .main-nav {
+  .about .main-nav {
     display: none; }
-  .tickets .about .desknav {
+  .about .desknav {
     display: inline-block;
     margin: 7% 1% 0 5%;
     color: white; }
-  .tickets .about .ticket-container {
+  .about .ticket-container {
     position: -webkit-sticky;
     position: sticky;
     top: 20px; }
-  .tickets .about .yellow-background {
+  .about .yellow-background {
     display: flex; }
-    .tickets .about .yellow-background .side-loc {
+    .about .yellow-background .side-loc {
       width: 60%;
       margin: 0px 0px 0px 20px; }
-    .tickets .about .yellow-background .mont21 {
+    .about .yellow-background .mont21 {
       line-height: 1;
       padding: 35px; }
-    .tickets .about .yellow-background .lora18 {
+    .about .yellow-background .lora18 {
       line-height: 0.9;
       font-size: 14px;
       padding: 15px 0 0 30px; }
-    .tickets .about .yellow-background .lora16 {
+    .about .yellow-background .lora16 {
       line-height: 0;
       padding: 15px 10px 10px 30px; }
-  .tickets .about .white-background {
+  .about .white-background {
     padding-left: 35%; }
-  .tickets .about .gray-background {
+  .about .gray-background {
     padding-left: 35%; }
-  .tickets .about .main-button {
+  .about .main-button {
     padding: 2%;
     margin-left: 5%;
     width: 10%; }
-  .tickets .about .two .mont18 {
+  .about .two .mont18 {
     line-height: 0.3;
     letter-spacing: 0;
     font-size: 15px; }
-  .tickets .desknav:hover {
+
+  .desknav:hover {
     color: #d08e01;
     transition-duration: .5s; }
-  .tickets .mapish {
+
+  .mapish {
     width: 100%;
     margin-bottom: -3px; }
-  .tickets .footer {
+
+  .footer {
     display: flex;
     height: 100%; }
-  .tickets .code {
+
+  .code {
     width: 50%;
     padding-top: 20px; }
-  .tickets .connect {
+
+  .connect {
     margin-left: 20%;
     padding-top: 20px; }
-    .tickets .connect img {
+    .connect img {
       border-radius: 30px;
       height: 30px;
       filter: invert(1) grayscale(1);
       margin-left: 10px; }
-    .tickets .connect img:hover {
+    .connect img:hover {
       filter: invert(0); } }
 
 /*# sourceMappingURL=style.css.map */
