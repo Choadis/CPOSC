@@ -1058,8 +1058,35 @@ a {
     display: none; }
   .tickets .desknav {
     display: inline-block;
-    margin: 3% 1% 4% 5%;
+    margin: 5% 1% 0 6%;
     color: white; }
+  .tickets .white-background {
+    margin: 4% 0 0 5%; }
+  .tickets .overlay {
+    display: none; }
+  .tickets .yellow-background {
+    display: flex; }
+    .tickets .yellow-background .side-loc {
+      padding: 20px;
+      width: 60%; }
+    .tickets .yellow-background .mont21 {
+      line-height: 1;
+      padding: 30px; }
+    .tickets .yellow-background .lora18 {
+      line-height: 0.9;
+      font-size: 14px;
+      padding: 15px 0 0 30px; }
+    .tickets .yellow-background .lora16 {
+      line-height: 0;
+      padding: 15px 10px 10px 30px; }
+  .tickets .footer {
+    height: 250px; }
+  .tickets .connect {
+    width: 50%;
+    padding-top: 5%; }
+  .tickets .code {
+    width: auto;
+    padding-top: 10%; }
   .tickets .ticket-div {
     width: 60%;
     margin-bottom: 50px;
@@ -1068,7 +1095,6 @@ a {
     margin: 0 0 0 70%; }
   .tickets .ddmenu2 {
     margin: 0 0 0 70%; }
-
   .sponsor .hero {
     height: 400px; }
   .sponsor .herohead, .sponsor .herohome {
@@ -1133,7 +1159,7 @@ a {
     display: none; }
   .about .desknav {
     display: inline-block;
-    margin: 3% 1% 4% 5%;
+    margin: 7% 1% 0 5%;
     color: white; }
   .about .ticket-container {
     position: -webkit-sticky;
@@ -1158,7 +1184,18 @@ a {
     padding-left: 35%; }
   .about .gray-background {
     padding-left: 35%; }
-
+  .about .main-button {
+    padding: 2%;
+    margin-left: 5%;
+    width: 10%; }
+  .about .two .mont18 {
+    line-height: 0.3;
+    letter-spacing: 0;
+    font-size: 15px; } }
+.ticket-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px; }
   .desknav:hover {
     color: #d08e01;
     transition-duration: .5s; }

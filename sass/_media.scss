@@ -391,9 +391,45 @@
     }
     .desknav {
       display: inline-block;
-      margin: 3% 1% 4% 5%;
+      margin: 5% 1% 0 6%;
       color: white;
     }
+    .white-background {
+      margin: 4% 0 0 5%;
+    }
+    .overlay {
+      display: none;
+    }
+    .yellow-background{
+      display: flex;
+      .side-loc{
+        padding: 20px;
+        width: 60%;
+      }
+      .mont21{
+        line-height: 1;
+        padding: 30px;
+      }
+      .lora18{
+        line-height: 0.9;
+        font-size: 14px;
+        padding: 15px 0 0 30px;
+      }
+      .lora16{
+        line-height: 0;
+        padding: 15px 10px 10px 30px;
+      }
+    }
+    .footer {
+      height: 250px;
+    }
+    .connect {
+      width: 50%;
+      padding-top: 5%;
+    }
+    .code {
+      width:auto;
+      padding-top: 10%;
     .ticket-div{
       width: 60%;
       margin-bottom: 50px;
@@ -496,7 +532,7 @@
     }
     .desknav {
       display: inline-block;
-      margin: 3% 1% 4% 5%;
+      margin: 7% 1% 0 5%;
       color: white;
     }
     .ticket-container{
@@ -529,6 +565,18 @@
     }
     .gray-background {
       padding-left: 35%;
+    }
+    .main-button {
+      padding: 2%;
+      margin-left: 5%;
+      width: 10%;
+    }
+    .two {
+      .mont18 {
+        line-height: 0.3;
+        letter-spacing: 0;
+        font-size: 15px;
+      }
     }
   }
 .desknav:hover{
