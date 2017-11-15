@@ -1073,6 +1073,10 @@ a {
     margin-top: 0; }
   .tickets .burger {
     display: none; }
+  .tickets .ticket-count {
+    margin: 0 0 0 70%; }
+  .tickets .ticket-div {
+    width: 65%; }
   .tickets .main-nav {
     display: none; }
   .tickets .desknav {
