@@ -18,7 +18,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 ## Authors
 
 * **Stefen Dahlgren** - *Initial work* - (https://github.com/Choadis)
-* **Brandon Green - *Initial work* - (https://github.com/Bgreen23)
+* **Brandon Green** - *Initial work* - (https://github.com/Bgreen23)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
